@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T23:55:43.207635",
+  "generated_at": "2026-06-17T03:25:41.590278",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -378,27 +378,6 @@
           "zone": 1,
           "training_load": 24.957092,
           "decoupling": 4.7848487
-        }
-      ]
-    },
-    {
-      "activity_id": "i153634532",
-      "date": "2026-06-02",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - The Seven Gems",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3608,
-          "avg_power": 163,
-          "max_power": 235,
-          "avg_hr": 143,
-          "max_hr": 160,
-          "avg_cadence": 79.06486,
-          "zone": 2,
-          "training_load": 35.651756,
-          "decoupling": -0.68941456
         }
       ]
     },
