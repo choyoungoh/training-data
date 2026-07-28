@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T17:38:04.392587",
+  "generated_at": "2026-07-28T18:55:54.807342",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2308,6 +2308,27 @@
           "zone": 1,
           "training_load": 61.01604,
           "decoupling": 12.676743
+        }
+      ]
+    },
+    {
+      "activity_id": "i170183585",
+      "date": "2026-07-28",
+      "type": "Ride",
+      "name": "Z2 mit Carmen",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 14289,
+          "avg_power": 69,
+          "max_power": 353,
+          "avg_hr": 131,
+          "max_hr": 171,
+          "avg_cadence": 69.06915,
+          "zone": 1,
+          "training_load": 96.6223,
+          "decoupling": -15.33423
         }
       ]
     }
