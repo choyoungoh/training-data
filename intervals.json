@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:28:42.037561",
+  "generated_at": "2026-09-06T16:23:14.737979",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2607,6 +2607,27 @@
           "zone": 1,
           "training_load": 51.462093,
           "decoupling": 6.812666
+        }
+      ]
+    },
+    {
+      "activity_id": "i183965786",
+      "date": "2026-09-06",
+      "type": "Ride",
+      "name": "Z2",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 20017,
+          "avg_power": 123,
+          "max_power": 411,
+          "avg_hr": 131,
+          "max_hr": 172,
+          "avg_cadence": 70.56418,
+          "zone": 1,
+          "training_load": 176.75085,
+          "decoupling": -4.278513
         }
       ]
     }
