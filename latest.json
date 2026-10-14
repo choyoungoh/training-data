@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-14T00:18:20.589675",
+    "last_updated": "2026-10-14T05:08:29.428635",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -130,7 +130,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 1.9
+        "value": 3.0
       }
     },
     "signal_summary": {
@@ -215,10 +215,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 103.45,
-      "atl": 101.51,
-      "tsb": 1.94,
-      "ramp_rate": 1.41,
+      "ctl": 103.18,
+      "atl": 100.13,
+      "tsb": 3.05,
+      "ramp_rate": 1.14,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -284,7 +284,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5,
+      "steps": 19,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -643,13 +643,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.2,
-          "hard_sessions_planned": 4,
+          "planned_tss_delta": 1.28,
+          "hard_sessions_planned": 5,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_total": 5,
           "race_proximity": null,
           "next_week_load": 1.05,
-          "plan_coverage_current_week": 1.2,
+          "plan_coverage_current_week": 1.4,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -683,13 +683,13 @@
     "p_max": 919,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-14T00:18:20.588816",
+    "calculation_timestamp": "2026-10-14T05:08:29.427391",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 6,
       "activities_7d": 8,
       "activities_28d": 22,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -697,58 +697,6 @@
     }
   },
   "recent_activities": [
-    {
-      "id": "i196936265",
-      "date": "2026-10-13T18:26:11",
-      "type": "Ride",
-      "name": "Evening Ride",
-      "duration_hours": 1.62,
-      "distance_km": 0.0,
-      "tss": null,
-      "intensity_factor": null,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": null,
-      "avg_speed": null,
-      "avg_speed_unit": "KPH",
-      "max_speed": null,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": null,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": null,
-      "calories": null,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "display": {
-        "distance": {
-          "value": 0.0,
-          "unit": "km"
-        },
-        "elevation": null,
-        "avg_speed": null,
-        "max_speed": null
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": null,
-      "has_intervals": false,
-      "has_dfa": false,
-      "terrain_status": "no_gps",
-      "weather_status": "unavailable"
-    },
     {
       "id": "i196921003",
       "date": "2026-10-13T18:26:11",
@@ -827,6 +775,58 @@
       "has_intervals": true,
       "has_dfa": false,
       "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 7/10\nTSS: 84\n\ud6c8\ub828 \uc790\uadf9: endurance\n\uc608\uc0c1 \ud68c\ubcf5: 13h\n\n\ud83d\udd17 interval.coach/r/AZWWHV"
+    },
+    {
+      "id": "i196936265",
+      "date": "2026-10-13T18:26:11",
+      "type": "Ride",
+      "name": "Evening Ride",
+      "duration_hours": 1.62,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false,
+      "terrain_status": "no_gps",
+      "weather_status": "unavailable"
     },
     {
       "id": "i196889125",
@@ -7292,7 +7292,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5,
+      "steps": 19,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -7333,6 +7333,21 @@
       "start_time": "17:00",
       "indoor": true,
       "description": "Warmup\n- 0^ \uc601\uc624, \ubc18\uac00\uc6cc\uc694! \uc9c0\uad6c\ub825\uacfc \ucf00\uc774\ub358\uc2a4\ub97c \ub2e4\uc838\ubd10\uc694 5m 50%\n- 5m 60%\n- 5m 70%\n\nMain Set\n12x\n- High Cadence 6m 70%\n- Low Cadence 6m 70%\n\nMain Set\n- High Cadence 6m 70%\n\nCooldown\n- 0^ \uba4b\uc9c4 \ub77c\uc774\ub529\uc774\uc5c8\uc5b4\uc694, \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1 \uc815\ub9d0 \uc88b\uc558\uc5b4\uc694 200s 60%\n- 200s 55%\n- 200s 50%\n\n\n[Weekly Plan - Build \u00b7 type:enduranceCadence]"
+    },
+    {
+      "id": 144475614,
+      "date": "2026-10-14",
+      "name": "IntervalCoach - \uc720\uc0b0\uc18c \uc9c0\uad6c\ub825",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 46,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "indoor": true,
+      "description": "Warmup\n- \uc548\ub155, youngoh cho! \uc624\ub298\uc740 \uc9c0\uad6c\ub825\uc744 \ub2e4\uc838\uc694 15^ \uc624\ub298 \uc9c0\uad6c\ub825 \ud6c8\ub828\uc774 \uc131\uc7a5\uc758 \uae30\ubc18\uc744 \ub2e4\uc838\uc694 21^ \ub05d\ub098\uba74 \ub354 \uc624\ub798 \ud3b8\uc548\ud558\uac8c \ub2ec\ub9b4 \ud798\uc774 \uc0dd\uaca8\uc694 9m ramp 45-75%\n\nMain Set\n- Settle In 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \ud3b8\uc548\ud55c \ud68c\ubcf5\uc774 \ub2e4\uc74c \ud398\ub2ec\uc744 \uc900\ube44\ud574\uc694 240^ \ubd80\ub4dc\ub7fd\uac8c \ub3cc\ub9ac\uba70 \ud798\uc744 \uc544\uaef4\uc694 360^ \ub2f9\uc2e0\uc758 \ucc28\ubd84\ud568\uc774 \uafb8\uc900\ud568\uc744 \ud0a4\uc6cc\uc694 480^ \uac00\ubccd\uac8c \uc6c0\uc9c1\uc774\uba70 \ud638\ud761\uc744 \uc815\ub3c8\ud574\uc694 11m 66%\n- Build 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 240^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 360^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 480^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 11m 69%\n- Upper 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 240^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 360^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 480^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 11m 72%\n- Cruise 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 240^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 360^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 480^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 600^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 12m 72%\n\nCooldown\n- \uc815\ub9d0 \uc798\ud588\uc5b4\uc694, \ubfcc\ub4ef\ud558\uac8c \ub9c8\ubb34\ub9ac\ud574\uc694 10^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc73c\ub85c \uc9c0\uad6c\ub825\uc744 \ud0a4\uc6e0\uc5b4\uc694 16^ \uba4b\uc9c4 \uc131\uacfc\uc608\uc694, \ud798\ucc28\uac8c \uc774\uc5b4\uac00\uc694! 6m ramp 65-45%"
     },
     {
       "id": 137551558,
@@ -7610,15 +7625,29 @@
       "has_terrain": false,
       "start_time": "17:00",
       "description_preview": "Warmup\n- \uc601\uc639, \ubc18\uac00\uc6cc\uc694! \uc9c0\uad6c\ub825\uacfc \uadfc\ub825 \ube14\ub85d\uc744 \ud568\uaed8 \ub2ec\ub824\ubd10\uc694 5m 50%\n- 5m 60%"
+    },
+    {
+      "id": 144475636,
+      "date": "2026-11-11",
+      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 139,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description_preview": "Warmup\n- \uc601\uc624\ub2d8, \uc624\ub298\uc740 \uafb8\uc900\ud55c \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc774\uc5d0\uc694! 5m 50%\n- 5m 60%"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 22,
+    "attempted": 24,
     "success": 12,
     "patternA": 12,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 10
+    "bail_no_match": 12
   },
   "weekly_summary": {
     "total_training_hours": 15.66,
