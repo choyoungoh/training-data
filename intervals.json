@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T05:08:28.965816",
+  "generated_at": "2026-10-14T10:09:01.287694",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -3047,6 +3047,80 @@
           "avg_cadence": 87.66715,
           "zone": 2,
           "training_load": 10.032146
+        }
+      ]
+    },
+    {
+      "activity_id": "i197071314",
+      "date": "2026-10-14",
+      "type": "VirtualRide",
+      "name": "Zwift - Intervals icu: IntervalCoach - \uc720\uc0b0\uc18c \uc9c0\uad6c\ub825",
+      "interval_summary": [
+        "1x 11m33s 147w",
+        "3x 11m 179w",
+        "1x 12m51s 179w",
+        "1x 6s 45w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "693s@147w78rpm",
+          "duration_secs": 693,
+          "avg_power": 147,
+          "max_power": 286,
+          "avg_cadence": 78.32715,
+          "zone": 2,
+          "training_load": 6.310567
+        },
+        {
+          "type": "WORK",
+          "label": "660s@179w91rpm",
+          "duration_secs": 661,
+          "avg_power": 172,
+          "max_power": 272,
+          "avg_cadence": 91.124054,
+          "zone": 2,
+          "training_load": 8.792475
+        },
+        {
+          "type": "WORK",
+          "label": "660s@179w91rpm",
+          "duration_secs": 660,
+          "avg_power": 179,
+          "max_power": 284,
+          "avg_cadence": 91.009094,
+          "zone": 2,
+          "training_load": 9.398693
+        },
+        {
+          "type": "WORK",
+          "label": "660s@179w91rpm",
+          "duration_secs": 659,
+          "avg_power": 187,
+          "max_power": 331,
+          "avg_cadence": 89.91769,
+          "zone": 2,
+          "training_load": 10.351865
+        },
+        {
+          "type": "WORK",
+          "label": "771s@179w84rpm",
+          "duration_secs": 771,
+          "avg_power": 179,
+          "max_power": 345,
+          "avg_cadence": 83.841675,
+          "zone": 2,
+          "training_load": 11.577124
+        },
+        {
+          "type": "WORK",
+          "label": "6s@45w103rpm",
+          "duration_secs": 6,
+          "avg_power": 45,
+          "max_power": 140,
+          "avg_cadence": 103.166664,
+          "zone": 1,
+          "training_load": 0.077976
         }
       ]
     }
