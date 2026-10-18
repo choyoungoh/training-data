@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-18T00:31:24.364284",
+    "last_updated": "2026-10-18T05:07:33.380461",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -130,7 +130,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -2.2
+        "value": 24.7
       }
     },
     "signal_summary": {
@@ -215,17 +215,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 105.12,
-      "atl": 107.3,
-      "tsb": -2.18,
-      "ramp_rate": -0.47,
+      "ctl": 98.43,
+      "atl": 73.72,
+      "tsb": 24.71,
+      "ramp_rate": -7.16,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 262.6,
-      "w_prime": 21173,
+      "eftp": 262.3,
+      "w_prime": 21152,
       "w_prime_kj": 21.2,
-      "p_max": 918,
+      "p_max": 917,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -603,7 +603,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 260,
-          "w_prime_used": 21173,
+          "w_prime_used": 21152,
           "ftp_staleness_days": 136,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -676,13 +676,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 262.6,
-    "w_prime": 21173,
+    "eftp": 262.3,
+    "w_prime": 21152,
     "w_prime_kj": 21.2,
-    "p_max": 918,
+    "p_max": 917,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-18T00:31:24.362997",
+    "calculation_timestamp": "2026-10-18T05:07:33.379212",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -7607,15 +7607,29 @@
       "workout_summary": "5m @130W | 5m @156W | 5m @182W | 9\u00d76m @182W / 6m rec | 6m @182W | 11m @182W | 3m20s @156W | 3m20s @143W | 3m20s @130W",
       "has_terrain": false,
       "start_time": "17:00"
+    },
+    {
+      "id": 145595338,
+      "date": "2026-11-15",
+      "name": "IntervalCoach - \uc810\uc9c4\uc801 \uc720\uc0b0\uc18c",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 281,
+      "duration_hours": 6.0,
+      "duration_formatted": "6h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description_preview": "Warmup\n- \uc601\uc624\ub2d8, \uc810\uc9c4\uc801 \uc720\uc0b0\uc18c \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694! 5m 50%\n- 5m 60%"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 20,
+    "attempted": 21,
     "success": 11,
     "patternA": 11,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 9
+    "bail_no_match": 10
   },
   "weekly_summary": {
     "total_training_hours": 8.26,
