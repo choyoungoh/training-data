@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 17.11,
-      "total_training_formatted": "17h6m",
-      "total_activities": 14,
+      "total_training_hours": 17.46,
+      "total_training_formatted": "17h27m",
+      "total_activities": 15,
       "total_tss": 519
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-19T06:49:07.785126",
+    "last_updated": "2026-10-19T14:12:27.714267",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -160,8 +160,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 17.11,
-    "total_activities": 14,
+    "total_duration_decimal_hours": 17.46,
+    "total_activities": 15,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 8.16,
@@ -200,8 +200,8 @@
         }
       },
       "Walk": {
-        "duration_decimal_hours": 2.02,
-        "count": 3,
+        "duration_decimal_hours": 2.37,
+        "count": 4,
         "tss": 19,
         "distance_km": 0.0,
         "display": {
@@ -284,7 +284,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 3057,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -684,12 +684,12 @@
     "p_max": 917,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-19T06:49:07.783890",
+    "calculation_timestamp": "2026-10-19T14:12:27.712985",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
-      "activities_7d": 14,
-      "activities_28d": 29,
+      "activities_7d": 15,
+      "activities_28d": 30,
       "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
@@ -698,6 +698,58 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i198998705",
+      "date": "2026-10-19T11:56:02",
+      "type": "Walk",
+      "name": "Lunch Other",
+      "duration_hours": 0.35,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false,
+      "terrain_status": "no_gps",
+      "weather_status": "unavailable"
+    },
     {
       "id": "i198775724",
       "date": "2026-10-18T19:18:57",
@@ -725,7 +777,7 @@
       "wind_speed_unit": "KMH",
       "work_kj": 1160.8,
       "calories": 1261,
-      "carbs_used": null,
+      "carbs_used": 280,
       "carbs_ingested": null,
       "variability_index": 1.0869565,
       "decoupling": -2.6762133,
@@ -852,7 +904,7 @@
       "wind_speed_unit": "KMH",
       "work_kj": 1583.2,
       "calories": 1534,
-      "carbs_used": null,
+      "carbs_used": 358,
       "carbs_ingested": null,
       "variability_index": 1.0568181,
       "decoupling": -1.9056576,
@@ -1222,7 +1274,7 @@
       "wind_speed_unit": "KMH",
       "work_kj": 574.6,
       "calories": 547,
-      "carbs_used": null,
+      "carbs_used": 96,
       "carbs_ingested": null,
       "variability_index": 1.0545454,
       "decoupling": 0.19497669,
@@ -7262,7 +7314,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 3057,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -7557,10 +7609,10 @@
     "bail_no_match": 9
   },
   "weekly_summary": {
-    "total_training_hours": 17.11,
-    "total_training_formatted": "17h6m",
+    "total_training_hours": 17.46,
+    "total_training_formatted": "17h27m",
     "total_tss": 519,
-    "activities_count": 14,
+    "activities_count": 15,
     "avg_hrv": 60.4,
     "avg_resting_hr": 44.4
   },
