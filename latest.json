@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 5.0,
-      "total_training_formatted": "4h59m",
-      "total_activities": 6,
-      "total_tss": 269
+      "total_training_hours": 6.97,
+      "total_training_formatted": "6h58m",
+      "total_activities": 7,
+      "total_tss": 371
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-22T14:39:44.380803",
+    "last_updated": "2026-10-22T18:48:05.822613",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -121,7 +121,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.38
+        "value": 0.51
       },
       "ri": {
         "status": "green",
@@ -130,7 +130,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 25.3
+        "value": 6.3
       }
     },
     "signal_summary": {
@@ -160,8 +160,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 5.0,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 6.97,
+    "total_activities": 7,
     "by_activity_type": {
       "Unknown": {
         "duration_decimal_hours": 0.0,
@@ -176,13 +176,13 @@
         }
       },
       "VirtualRide": {
-        "duration_decimal_hours": 4.26,
-        "count": 3,
-        "tss": 267,
-        "distance_km": 158.4,
+        "duration_decimal_hours": 6.24,
+        "count": 4,
+        "tss": 369,
+        "distance_km": 229.0,
         "display": {
           "distance": {
-            "value": 158.4,
+            "value": 229.0,
             "unit": "km"
           }
         }
@@ -203,11 +203,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 96.42,
-      "atl": 71.1,
-      "tsb": 25.32,
-      "ramp_rate": -7.42,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 100.31,
+      "atl": 93.96,
+      "tsb": 6.35,
+      "ramp_rate": -5.01,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 261.3,
@@ -272,7 +272,7 @@
       "respiration": 16.4,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5234,
+      "steps": 5364,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -305,77 +305,77 @@
     "rhr_baseline_28d": 47.7,
     "latest_hrv": 60.45,
     "latest_rhr": 51,
-    "acwr": 0.38,
+    "acwr": 0.51,
     "acwr_interpretation": "undertraining",
-    "monotony": 0.59,
-    "monotony_interpretation": "normal",
+    "monotony": 0.8,
+    "monotony_interpretation": "normal (primary sport 0.79, total 0.8 inflated by multi-sport)",
     "primary_sport": "cycling",
-    "primary_sport_monotony": null,
-    "primary_sport_tss_7d": 267.0,
-    "effective_monotony": 0.59,
+    "primary_sport_monotony": 0.79,
+    "primary_sport_tss_7d": 369.0,
+    "effective_monotony": 0.79,
     "multi_sport_detected": true,
-    "strain": 159.0,
-    "stress_tolerance": 2.7,
-    "load_recovery_ratio": 2.7,
-    "tss_7d_total": 269.0,
-    "tss_28d_total": 2798.0,
+    "strain": 297.0,
+    "stress_tolerance": 3.7,
+    "load_recovery_ratio": 3.8,
+    "tss_7d_total": 371.0,
+    "tss_28d_total": 2900.0,
     "zone_distribution_7d": {
-      "z1_hours": 0.7,
-      "z2_hours": 2.18,
-      "z3_hours": 1.12,
-      "z4_plus_hours": 0.65,
-      "total_hours": 4.65,
+      "z1_hours": 0.76,
+      "z2_hours": 3.62,
+      "z3_hours": 1.59,
+      "z4_plus_hours": 0.66,
+      "total_hours": 6.62,
       "zone_basis": "mixed"
     },
     "grey_zone_percentage": 24.0,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 14.0,
+    "quality_intensity_percentage": 9.9,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.62,
+    "easy_time_ratio": 0.66,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 1,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 10365,
-      "z2_seconds": 4023,
-      "z3_seconds": 2340,
-      "z1_pct": 62.0,
+      "z1_seconds": 15757,
+      "z2_seconds": 5714,
+      "z3_seconds": 2359,
+      "z1_pct": 66.1,
       "z2_pct": 24.0,
-      "z3_pct": 14.0,
+      "z3_pct": 9.9,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 8984,
-      "z2_seconds": 4023,
-      "z3_seconds": 2340,
-      "z1_pct": 58.5,
-      "z2_pct": 26.2,
-      "z3_pct": 15.2,
+      "z1_seconds": 14376,
+      "z2_seconds": 5714,
+      "z3_seconds": 2359,
+      "z1_pct": 64.0,
+      "z2_pct": 25.5,
+      "z3_pct": 10.5,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 136235,
-      "z2_seconds": 44270,
-      "z3_seconds": 22645,
-      "z1_pct": 67.1,
-      "z2_pct": 21.8,
-      "z3_pct": 11.1,
+      "z1_seconds": 141627,
+      "z2_seconds": 45961,
+      "z3_seconds": 22664,
+      "z1_pct": 67.4,
+      "z2_pct": 21.9,
+      "z3_pct": 10.8,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 133425,
-      "z2_seconds": 44270,
-      "z3_seconds": 22645,
-      "z1_pct": 66.6,
-      "z2_pct": 22.1,
-      "z3_pct": 11.3,
+      "z1_seconds": 138817,
+      "z2_seconds": 45961,
+      "z3_seconds": 22664,
+      "z1_pct": 66.9,
+      "z2_pct": 22.2,
+      "z3_pct": 10.9,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power",
@@ -384,22 +384,22 @@
     "capability": {
       "durability": {
         "mean_decoupling_7d": null,
-        "mean_decoupling_28d": 0.19,
+        "mean_decoupling_28d": -0.12,
         "high_drift_count_7d": 0,
         "high_drift_count_28d": 0,
-        "qualifying_sessions_7d": 0,
-        "qualifying_sessions_28d": 2,
+        "qualifying_sessions_7d": 1,
+        "qualifying_sessions_28d": 3,
         "trend": null,
         "reliability_limited": true,
-        "reliability_note": "insufficient qualifying sessions for alert evaluation: 7d N=0 (min 3), 28d N=2 (min 5)",
+        "reliability_note": "insufficient qualifying sessions for alert evaluation: 7d N=1 (min 3), 28d N=3 (min 5)",
         "note": "Steady-state power sessions only (VI <= 1.05, VI > 0, >= 90min, power data). Negative decoupling = strong durability. Trend compares 7d vs 28d mean (+/-1% = stable). Alerts require N28>=5 (alarm) or N7>=3 AND N28>=5 (declining warning) for statistical reliability."
       },
       "efficiency_factor": {
-        "mean_ef_7d": null,
-        "mean_ef_28d": 1.25,
-        "qualifying_sessions_7d": 1,
-        "qualifying_sessions_28d": 5,
-        "trend": null,
+        "mean_ef_7d": 1.26,
+        "mean_ef_28d": 1.27,
+        "qualifying_sessions_7d": 2,
+        "qualifying_sessions_28d": 6,
+        "trend": "stable",
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
@@ -598,18 +598,19 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.0,
+    "consistency_index": 0.5,
     "consistency_details": {
       "planned_days": 2,
-      "completed_days": 2,
-      "matched_days": 0,
+      "completed_days": 3,
+      "matched_days": 1,
       "planned_dates": [
         "2026-10-21",
         "2026-10-22"
       ],
       "completed_dates": [
         "2026-10-18",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-22"
       ]
     },
     "phase_detection": {
@@ -624,14 +625,14 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.11,
-          "hard_sessions_planned": 6,
+          "planned_tss_delta": 1.87,
+          "hard_sessions_planned": 5,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 7,
+          "current_week_hard_days_total": 6,
           "race_proximity": null,
-          "next_week_load": 1.96,
-          "plan_coverage_current_week": 0.86,
-          "plan_coverage_next_week": 1.43
+          "next_week_load": 1.03,
+          "plan_coverage_current_week": 0.71,
+          "plan_coverage_next_week": 0.71
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -664,12 +665,12 @@
     "p_max": 914,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-22T14:39:44.379731",
+    "calculation_timestamp": "2026-10-22T18:48:05.821533",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
-      "activities_7d": 6,
-      "activities_28d": 27,
+      "activities_7d": 7,
+      "activities_28d": 28,
       "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
@@ -678,6 +679,85 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i200426708",
+      "date": "2026-10-22T15:54:09",
+      "type": "VirtualRide",
+      "name": "IntervalCoach - \uc9c0\uad6c\ub825\uacfc \uc9e7\uc740 \uac00\uc18d",
+      "duration_hours": 1.97,
+      "distance_km": 70.63,
+      "tss": 102,
+      "intensity_factor": 72.0,
+      "avg_power": 178,
+      "normalized_power": 180,
+      "avg_hr": 135,
+      "max_hr": 152,
+      "avg_cadence": 91.145294,
+      "avg_speed": 35.8,
+      "avg_speed_unit": "KPH",
+      "max_speed": 49.3,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": 1262.0,
+      "calories": 1205,
+      "carbs_used": 268,
+      "carbs_ingested": 0,
+      "variability_index": 1.011236,
+      "decoupling": -0.74772274,
+      "efficiency_factor": 1.3333334,
+      "hrrc": null,
+      "elevation_m": 276.0,
+      "display": {
+        "distance": {
+          "value": 70.63,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 276,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 35.8,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 49.3,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 4091,
+          "z2_time": 2995,
+          "z3_time": 16,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 210,
+          "z2_time": 5182,
+          "z3_time": 1691,
+          "z4_time": 19,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true,
+      "has_dfa": false,
+      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 10/10\nTSS: 102\n\ud6c8\ub828 \uc790\uadf9: endurance\n\uc608\uc0c1 \ud68c\ubcf5: 13h\n\n\ud83d\udd17 interval.coach/r/AZWWHV"
+    },
     {
       "id": "20671702212",
       "date": "2026-10-21T10:18:24",
@@ -6559,7 +6639,7 @@
       "respiration": 16.4,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5234,
+      "steps": 5364,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -6599,21 +6679,6 @@
       "has_terrain": false,
       "start_time": "17:00",
       "description": "-5m ramp 50-65% FTP 75% LTHR\n\n10x\n-7m 65% FTP 78% LTHR\n-7m 74% FTP 81% LTHR\n\n-5m 55% FTP 74% LTHR"
-    },
-    {
-      "id": 146735844,
-      "date": "2026-10-24",
-      "name": "IntervalCoach - \uc7a5\uac70\ub9ac \uc720\uc0b0\uc18c",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 92,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description": "Warmup\n- \uc601\uc624\ub2d8, \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694 15^ \uc624\ub298\uc740 \ucc28\ubd84\ud788 \uc9c0\uad6c\ub825\uc744 \uc313\uc544\uac00\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \ub354 \uc624\ub798 \ub2ec\ub9b4 \ud798\uc744 \uae38\ub7ec\uc918\uc694 15m ramp 45-75%\n\nMain Set\n- Settle In 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \ud3b8\uc548\ud55c \ud398\uc774\uc2a4\uac00 \uc9c0\uad6c\ub825\uc744 \uc313\uc544\uc694 240^ \ud798\uc744 \uc544\ub07c\uba70 \ubd80\ub4dc\ub7fd\uac8c \ud398\ub2ec\ub9c1\ud574\uc694 360^ \uc5ec\uc720 \uc788\ub294 \ud638\ud761\uc73c\ub85c \ub9ac\ub4ec\uc744 \ucc3e\uc544\uc694 480^ \ucc28\ubd84\ud55c \ud68c\uc804\uc774 \uc624\ub798 \ub2ec\ub9b4 \ud798\uc744 \uc918\uc694 600^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 720^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 14m 68%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 360^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 9m 70%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 5m 70%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 67%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 70%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 79%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 5m 70%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 67%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 70%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 79%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 5m 70%\n- High Cadence 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 67%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 70%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 79%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 5m 70%\n- High Cadence 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 67%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 70%\n- Surge 5^ \uc2a4\ud37c\uc9c0: \ub9ac\ub4ec\uc744 \ubc97\uc5b4\ub098\uc11c, \ubc14\ub85c \ub2e4\uc2dc \ubcf5\uadc0 1m 79%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 5m 70%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 67%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 70%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 79%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 5m 70%\n- High Cadence 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 67%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 70%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 79%\n\nCooldown\n- \uafb8\uc900\ud55c \ub77c\uc774\ub529, \uc815\ub9d0 \uc798 \ud574\ub0c8\uc5b4\uc694 10^ \uc9c0\uc18d\uc801\uc778 \uc720\uc0b0\uc18c \uc9c0\uad6c\ub825\uc744 \ub2e8\ub828\ud588\uc5b4\uc694 16^ \ubfcc\ub4ef\ud55c \ub9c8\uc74c\uc73c\ub85c \uc624\ub298\uc744 \ub9c8\ubb34\ub9ac\ud574\uc694! 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:longAerobic]"
     },
     {
       "id": 146742514,
@@ -6659,21 +6724,6 @@
       "description": "Warmup\n- \uc601\uc624, \ubc18\uac00\uc6cc\uc694! \uafb8\uc900\ud55c \uc9c0\ubc29 \ub300\uc0ac \ud6c8\ub828\uc744 \uc2dc\uc791\ud574\uc694 15^ \uc624\ub298\uc740 \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825\uc744 \ucc28\uace1\ucc28\uace1 \uc313\uc544\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \uc624\ub798\uac00\ub294 \uae30\ubc18\uc744 \ub9cc\ub4e4\uc5b4\uc694 15m ramp 45-75%\n\nMain Set\n- Easy 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \uac00\ubccd\uac8c \ub3cc\ub824 \ub2e4\uc74c \uad6c\uac04\uc744 \uc900\ube44\ud574\uc694 240^ \ud3b8\uc548\ud55c \ud68c\ubcf5\uc774 \uafb8\uc900\ud568\uc744 \uc9c0\ucf1c\uc918\uc694 7m 68%\n- Spin 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 68%\n- Low Cadence 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 2m 68%\n- Easy 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ubd80\ub4dc\ub7ec\uc6b4 \ucf00\uc774\ub358\uc2a4\ub85c \uae34\uc7a5\uc744 \ud480\uc5b4\uc694 5m 68%\n- Spin 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 68%\n- Low Cadence 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 2m 68%\n- Easy 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ud798\uc744 \uc544\ub07c\ub294 \uac83\ub3c4 \uc88b\uc740 \ud6c8\ub828\uc774\uc5d0\uc694 5m 68%\n- Spin 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 68%\n- Low Cadence 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 2m 68%\n- Easy 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 5m 68%\n- Spin 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 68%\n- Low Cadence 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 2m 68%\n- Easy 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 5m 68%\n- Spin 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 68%\n- Low Cadence 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 2m 68%\n- Easy 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 5m 68%\n- Spin 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 68%\n- Low Cadence 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 2m 68%\n- Easy 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 5m 68%\n- Spin 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 68%\n- Low Cadence 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 2m 68%\n- Easy 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 5m 68%\n- Spin 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 68%\n- Low Cadence 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 2m 68%\n- Easy 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 5m 68%\n- Spin 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 68%\n- Low Cadence 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 2m 63%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 360^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 8m 66%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 5m 66%\n- High Cadence 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 63%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 66%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 5m 66%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 63%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 66%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 75%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 5m 66%\n- High Cadence 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 63%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 66%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 5m 66%\n- High Cadence 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 63%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 66%\n- Surge 5^ \uc2a4\ud37c\uc9c0: \ub9ac\ub4ec\uc744 \ubc97\uc5b4\ub098\uc11c, \ubc14\ub85c \ub2e4\uc2dc \ubcf5\uadc0 1m 75%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 5m 66%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 63%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 66%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 5m 66%\n- High Cadence 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 63%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 66%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 75%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 5m 66%\n- High Cadence 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 63%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 66%\n- Surge 5^ \uc2a4\ud37c\uc9c0: \ub9ac\ub4ec\uc744 \ubc97\uc5b4\ub098\uc11c, \ubc14\ub85c \ub2e4\uc2dc \ubcf5\uadc0 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 7m 66%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 5m 66%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 63%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 66%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 5m 66%\n- High Cadence 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 63%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 3m 66%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 75%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 5m 66%\n- High Cadence 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 63%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 66%\n- Surge 5^ \uc2a4\ud37c\uc9c0: \ub9ac\ub4ec\uc744 \ubc97\uc5b4\ub098\uc11c, \ubc14\ub85c \ub2e4\uc2dc \ubcf5\uadc0 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 5m 66%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 63%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 3m 66%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 75%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 5m 66%\n- High Cadence 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 63%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 66%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 5m 66%\n- High Cadence 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 63%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 3m 66%\n- Surge 5^ \uc2a4\ud37c\uc9c0: \ub9ac\ub4ec\uc744 \ubc97\uc5b4\ub098\uc11c, \ubc14\ub85c \ub2e4\uc2dc \ubcf5\uadc0 1m 75%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 5m 66%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 63%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 66%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 75%\n\nCooldown\n- \uc815\ub9d0 \uc798\ud588\uc5b4\uc694, \ucc28\ubd84\ud55c \ub9c8\ubb34\ub9ac\uae4c\uc9c0 \uba4b\uc838\uc694 10^ \uc9c0\ubc29 \ub300\uc0ac\uc640 \uc720\uc0b0\uc18c \uc9c0\uad6c\ub825\uc744 \ub2e8\ub828\ud588\uc5b4\uc694 16^ \uc624\ub298\uc758 \uafb8\uc900\ud568\uc744 \uc790\ub791\uc2a4\ub7ec\uc6cc\ud558\uc138\uc694 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:enduranceFatMax]"
     },
     {
-      "id": 146735898,
-      "date": "2026-10-27",
-      "name": "IntervalCoach - 8x5 Sweet Spot \uc778\ud130\ubc8c",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 124,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "12m @150W | 1m @227W | 30s @137W | 1m @227W | 30s @137W | 8m @175W | 5m @175W | 3m @167W | 3m @175W | 1m @217W | 8\u00d75m @235W / 2m rec | 5m @175W | 3m @167W | 3m @175W | 1m @217W | 10m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description": "Warmup\n- \uc601\uc624\ub2d8, \ucc28\ubd84\ud55c \uc2a4\uc704\ud2b8\uc2a4\ud3ff \uc778\ud130\ubc8c\uc744 \uc2dc\uc791\ud574\uc694 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\uadfc\ucc28\uadfc \uc313\uc544\uc694 21^ \uafb8\uc900\ud55c \ud398\uc774\uc2a4\uac00 \uc9c0\uad6c\ub825\uc744 \ud0a4\uc6cc\uc918\uc694 12m ramp 45-75%\n- Primer 1 1m 91%\n- Primer recovery 30s 55%\n- Primer 2 1m 91%\n- Primer recovery 30s 55%\n\nMain Set\n- Steady 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \ud798\uc744 \ud480\uace0 \ud398\ub2ec\uc744 \uac00\ubccd\uac8c \ub3cc\ub824\uc694 240^ \ud68c\ubcf5\ud558\uba70 \ub2e4\uc74c \uad6c\uac04\uc744 \uc900\ube44\ud574\uc694 360^ \ubd80\ub4dc\ub7ec\uc6b4 \ub9ac\ub4ec\ub3c4 \uc9c0\uad6c\ub825\uc744 \ub3c4\uc640\uc918\uc694 8m 70%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ud3b8\uc548\ud55c \ud638\ud761\uc73c\ub85c \ucc28\ubd84\ud788 \uc774\uc5b4\uac00\uc694 5m 70%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 67%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 70%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 87%\n- SS Interval 1 5^ \uc2a4\uc704\ud2b8 \uc2a4\ud31f: threshold\ubcf4\ub2e4 \uc0b4\uc9dd \ub0ae\uac8c, \ubd80\ub4dc\ub7fd\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \uc601\uc624\ub2d8, \ucc28\ubd84\ud558\uace0 \uafb8\uc900\ud558\uac8c \ubc00\uc5b4\uc694 240^ \ub9c8\uc9c0\ub9c9 \uad6c\uac04\ub3c4 \ub9ac\ub4ec\uc744 \uc9c0\ucf1c\uc694 5m 94%\n- Recovery 5^ \ud68c\ubcf5: \ub2e4\ub9ac \ud3b8\ud558\uac8c, \uc2ec\ubc15\uc218 \ub5a8\uc5b4\uc9c0\uac8c \ub450\uae30 2m 55%\n- SS Interval 2 5^ \uc774\uac74 \uc774\ubbf8 \uc544\ub294 \uad6c\uac04, \uae68\ub057\ud558\uac8c \ud0c0\uae30 120^ \uae30\ucd08 \ub2e8\uacc4\uc758 \ud798\uc744 \ucc28\uace1\ucc28\uace1 \uc313\uc544\uc694 240^ \ud798\uc744 \ubd80\ub4dc\ub7fd\uac8c \uc774\uc5b4\uac00\uba70 \ub9c8\ubb34\ub9ac\ud574\uc694 5m 94%\n- Recovery 5^ \uc228 \uac00\ub77c\uc549\ud788\uace0, \ud30c\uc6cc \ub0ae\ucd94\uae30 2m 55%\n- SS Interval 3 5^ \ub2e4\uc2dc \uc2dc\uc791, \uccab \uc2a4\ud2b8\ub85c\ud06c\ubd80\ud130 \ubd80\ub4dc\ub7fd\uac8c 120^ \ud638\ud761\uc744 \uace0\ub974\uace0 \ud398\ub2ec\uc744 \ubd80\ub4dc\ub7fd\uac8c \ub20c\ub7ec\uc694 240^ \uc88b\uc544\uc694, \uafb8\uc900\ud55c \ud398\uc774\uc2a4\ub85c \ub05d\ub0b4\uc694 5m 94%\n- Recovery 5^ \uc81c\ub300\ub85c \ud68c\ubcf5\ud558\uae30, \ub2e4\uc74c \uad6c\uac04\uc774 \uadf8\ub9cc\ud07c \uac00\uce58 \uc788\uc5b4\uc694 2m 55%\n- SS Interval 4 5^ \uac19\uc740 \ube14\ub85d, \uc774\ubc88\uc5d4 \ub354 \ub098\uc740 \ub9ac\ub4ec\uc73c\ub85c 120^ \uc11c\ub450\ub974\uc9c0 \ub9d0\uace0 \uc77c\uc815\ud55c \ub9ac\ub4ec\uc744 \uc9c0\ucf1c\uc694 240^ 60\ucd08, \ub05d\uae4c\uc9c0 \ubc00\uc5b4\ubd99\uc774\uc138\uc694 5m 94%\n- Recovery 5^ \uac00\ubccd\uac8c \ud398\ub2ec\ub9c1, \uae38\uac8c \ub0b4\uc26c\uae30 2m 55%\n- SS Interval 5 5^ \uac19\uc740 \ubaa9\ud45c, \ub9ac\ub4ec\uc744 \uc77c\ucc0d \ucc3e\uc73c\uc138\uc694 120^ \ud798\uc744 \uc544\uaef4 \ub05d\uae4c\uc9c0 \uc548\uc815\uc801\uc73c\ub85c \uc774\uc5b4\uac00\uc694 240^ \ub9c8\uc9c0\ub9c9 1\ubd84, \ub05d\uae4c\uc9c0 \uac15\ud558\uac8c 5m 94%\n- Recovery 5^ \ub2e4\ub9ac \ud3b8\ud558\uac8c, \ud138\uc5b4\ub0b4\uae30 2m 55%\n- SS Interval 6 5^ \ube68\ub9ac \uc790\ub9ac\uc7a1\uc73c\uc138\uc694, \uccab 1\ubd84\uc774 \uc911\uc694\ud569\ub2c8\ub2e4 120^ \uc88b\uc544\uc694, \uc9c0\uae08\uc758 \uafb8\uc900\ud568\uc774 \uae30\ubc18\uc774 \ub3fc\uc694 240^ \uac70\uc758 \ub2e4 \uc654\uc5b4\uc694, \ud30c\uc6cc \uc720\uc9c0\ud558\uc138\uc694 5m 94%\n- Recovery 5^ \uc228 \uac00\ub77c\uc549\ud788\uace0, \ud30c\uc6cc \ub0ae\ucd94\uae30 2m 55%\n- SS Interval 7 5^ \uc5b4\uae68\ub294 \ud3b8\ud558\uac8c, \ub2e4\ub9ac\uac00 \uc77c\ud558\uac8c \ub450\uc138\uc694 120^ \uc88b\uc544\uc694, \uc815\ud655\ud788 \uc774 \uac15\ub3c4\uc608\uc694 240^ \ub9c8\uc9c0\ub9c9 1\ubd84, \uc720\uc9c0\ud558\uae30 5m 94%\n- Recovery 5^ \uc81c\ub300\ub85c \ud68c\ubcf5\ud558\uae30, \ub2e4\uc74c \uad6c\uac04\uc774 \uadf8\ub9cc\ud07c \uac00\uce58 \uc788\uc5b4\uc694 2m 55%\n- SS Interval 8 5^ \uc774\uac74 \uc774\ubbf8 \uc544\ub294 \uad6c\uac04, \uae68\ub057\ud558\uac8c \ud0c0\uae30 120^ \ud5c8\ub9ac \uace7\uac8c, \uae4a\uac8c \uc228 \uc26c\uace0, \uc720\uc9c0\ud558\uae30 240^ 1\ubd84 \ub0a8\uc558\uc5b4\uc694, \uae68\ub057\ud558\uac8c \ub9c8\ubb34\ub9ac\ud558\uae30 5m 94%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 360^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 9m 70%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 5m 70%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 67%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 70%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 87%\n\nCooldown\n- \uafb8\uc900\ud788 \uc798 \ud574\ub0c8\uc5b4\uc694, \uc5ec\uc720\ub86d\uac8c \ub9c8\ubb34\ub9ac\ud574\uc694 10^ \uc2a4\uc704\ud2b8\uc2a4\ud3ff \uc9c0\uad6c\ub825\uc744 \uc798 \ub2e8\ub828\ud588\uc5b4\uc694 16^ \ubfcc\ub4ef\ud558\uac8c \ub9c8\ubb34\ub9ac\ud558\uace0 \ud68c\ubcf5\ud574\uc694 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:ssIntervals]"
-    },
-    {
       "id": 146742516,
       "date": "2026-10-27",
       "name": "Stepped endurance \u00b7 150m by LeCoach App",
@@ -6686,21 +6736,6 @@
       "has_terrain": false,
       "start_time": "17:00",
       "description": "-5m ramp 50-65% FTP 75% LTHR\n\n5x\n-10m 65% FTP 78% LTHR\n-10m 70% FTP 79% LTHR\n-8m 74% FTP 81% LTHR\n\n-5m 55% FTP 74% LTHR"
-    },
-    {
-      "id": 146735957,
-      "date": "2026-10-28",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \uc2a4\ud540\uc5c5",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 94,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "15m @150W | 11m @175W | 7\u00d71m @187W / 11m rec | 10m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description": "Warmup\n- \uc601\uc624\ub2d8, \uc624\ub298\uc740 \uc9c0\uad6c\ub825\uacfc \uc2a4\ud540\uc5c5\uc744 \ud568\uaed8 \ub2e4\uc838\uc694 15^ \uc624\ub298 \ub2f9\uc2e0\uc740 \uae30\ucd08\uae30\ub97c \ub2e8\ub2e8\ud788 \ub2e4\uc838\uc694 21^ \uac00\ubcbc\uc6b4 \uc2a4\ud540\uc5c5\uc73c\ub85c \ud398\ub2ec \uac10\uac01\uc744 \uae68\uc6cc\uc694 15m ramp 45-75%\n\nMain Set\n- Endurance 1 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \uac00\ubccd\uac8c \ub3cc\ub824 \ub2e4\uc74c \ud798\uc744 \uc900\ube44\ud574\uc694 240^ \ud3b8\uc548\ud55c \ud68c\uc804\uc774 \uc624\ub798 \ud0c8 \ud798\uc744 \uae38\ub7ec\uc694 360^ \ube60\ub978 \ud398\ub2ec\uc740 \ubd80\ub4dc\ub7fd\uac8c \uc775\ud600\uc694 480^ \ud798 \ube7c\uace0 \ubc1c\ub05d\uae4c\uc9c0 \uc6d0\uc744 \uadf8\ub824\uc694 11m 70%\n- Spin-Up 1 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 1m 75%\n- Endurance 2 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 360^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 480^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 11m 70%\n- Spin-Up 2 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 1m 75%\n- Endurance 3 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 360^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 480^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 11m 70%\n- Spin-Up 3 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 1m 75%\n- Endurance 4 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 360^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 480^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 11m 70%\n- Spin-Up 4 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 1m 75%\n- Endurance 5 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 360^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 480^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 11m 70%\n- Spin-Up 5 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 1m 75%\n- Endurance 6 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 360^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 480^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 11m 70%\n- Spin-Up 6 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 1m 75%\n- Endurance 7 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 360^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 480^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 11m 70%\n- Spin-Up 7 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 1m 75%\n- Endurance 8 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 360^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 480^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 11m 70%\n\nCooldown\n- \uba4b\uc9c4 \ub77c\uc774\ub529\uc774\uc5c8\uc5b4\uc694, \uc5ec\uc720\ub86d\uac8c \ub9c8\ubb34\ub9ac\ud574\uc694 10^ \uc9c0\uad6c\ub825\uacfc \ube60\ub978 \ud398\ub2ec\ub9c1\uc744 \ub2e8\ub828\ud588\uc5b4\uc694 16^ \uba4b\uc9c4 \ub77c\uc774\ub529, \uc624\ub298\ub3c4 \ud574\ub0c8\uc5b4\uc694! 10m ramp 65-45%\n\n\n[Weekly Plan - Base \u00b7 type:enduranceSpinUps]"
     },
     {
       "id": 146742518,
@@ -6717,21 +6752,6 @@
       "description": "-5m ramp 50-65% FTP 75% LTHR\n\n3x\n-30s 100% FTP 98% LTHR\n-30s 55% FTP 74% LTHR\n\n-5m 60% FTP 76% LTHR\n\n-20m 65% FTP 78% LTHR\n\n3x\n-10m 95% FTP 91% LTHR\n-4m 65% FTP 78% LTHR\n\n-22m 65% FTP 78% LTHR\n\n-5m 55% FTP 74% LTHR"
     },
     {
-      "id": 146736026,
-      "date": "2026-10-29",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \ucf00\uc774\ub358\uc2a4 \ud6c8\ub828",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 92,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description": "Warmup\n- \uc601\uc639, \ubc18\uac00\uc6cc\uc694! \uc9c0\uad6c\ub825\uacfc \ucf00\uc774\ub358\uc2a4\ub97c \ub2e4\uc838\ubd10\uc694 15^ \uc624\ub298\uc740 \ucc28\ubd84\ud788 \uae30\ucd08 \uccb4\ub825\uc744 \uc313\uc544\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \ub354 \ud3b8\ud55c \uc9c0\uad6c\ub825\uc744 \ub9cc\ub4e4\uc5b4\uc918\uc694 15m ramp 45-75%\n\nMain Set\n- High Cadence 1 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \uac00\ubcbc\uc6b4 \ud398\ub2ec\ub9c1\uc774 \ub2e4\uc74c \ub178\ub825\uc744 \ub3c4\uc640\uc694 240^ \ud3b8\uc548\ud568\uc744 \uc9c0\ud0a4\uba70 \ud638\ud761\uc744 \uace0\ub974\uac8c \ud574\uc694 6m 70%\n- Low Cadence 1 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \uac00\ubcbc\uc6b4 \ud398\ub2ec\ub9c1\uc774 \ub2e4\uc74c \ub178\ub825\uc744 \ub3c4\uc640\uc694 240^ \ud3b8\uc548\ud568\uc744 \uc9c0\ud0a4\uba70 \ud638\ud761\uc744 \uace0\ub974\uac8c \ud574\uc694 6m 70%\n- High Cadence 2 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ubd80\ub4dc\ub7ec\uc6b4 \ucf00\uc774\ub358\uc2a4\ub85c \ub9ac\ub4ec\uc744 \ucc3e\uc544\uc694 240^ \ud798\uc744 \uc544\uaef4 \ub05d\uae4c\uc9c0 \uafb8\uc900\ud788 \ub2ec\ub824\uc694 6m 70%\n- Low Cadence 2 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ubd80\ub4dc\ub7ec\uc6b4 \ucf00\uc774\ub358\uc2a4\ub85c \ub9ac\ub4ec\uc744 \ucc3e\uc544\uc694 240^ \ud798\uc744 \uc544\uaef4 \ub05d\uae4c\uc9c0 \uafb8\uc900\ud788 \ub2ec\ub824\uc694 6m 70%\n- High Cadence 3 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 3 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 4 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 4 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 5 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 5 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 6 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 6 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 7 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 7 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 8 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 360^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 480^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 11m 70%\n\nCooldown\n- \uafb8\uc900\ud788 \uc798\ud588\uc5b4\uc694, \uac00\ubccd\uac8c \ud480\uba70 \ub9c8\ubb34\ub9ac\ud574\uc694 10^ \uc9c0\uad6c\ub825\uacfc \ubd80\ub4dc\ub7ec\uc6b4 \ud398\ub2ec\ub9c1\uc744 \ub2e8\ub828\ud588\uc5b4\uc694 16^ \uc624\ub298\uc758 \uafb8\uc900\ud568\uc744 \ubfcc\ub4ef\ud558\uac8c \uac04\uc9c1\ud574\uc694! 10m ramp 65-45%\n\n\n[Weekly Plan - Base \u00b7 type:enduranceCadence]"
-    },
-    {
       "id": 146742519,
       "date": "2026-10-29",
       "name": "Rolling endurance \u00b7 150m by LeCoach App",
@@ -6744,21 +6764,6 @@
       "has_terrain": false,
       "start_time": "17:00",
       "description": "-5m ramp 50-65% FTP 75% LTHR\n\n10x\n-7m 65% FTP 78% LTHR\n-7m 74% FTP 81% LTHR\n\n-5m 55% FTP 74% LTHR"
-    },
-    {
-      "id": 146736316,
-      "date": "2026-10-31",
-      "name": "IntervalCoach - \uc720\uc0b0\uc18c \uc9c0\uad6c\ub825",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 92,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc548\ub155\ud558\uc138\uc694, Youngoh! \uae34 \uc720\uc0b0\uc18c \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694 15^ \uc624\ub298\uc740 \uae30\ucd08 \uc9c0\uad6c\ub825\uc744 \ucc28\ubd84\ud788 \uc313\uc544\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \uc624\ub798\uac00\ub294 \ud798\uc744 \ud0a4\uc6cc\uc694 15m ramp 45-75%\nMain Set"
     },
     {
       "id": 146742520,
@@ -6788,36 +6793,6 @@
       "description_preview": "-5m ramp 50-65% FTP 75% LTHR\n-225m 65% FTP 78% LTHR\n-5m 55% FTP 74% LTHR"
     },
     {
-      "id": 146765935,
-      "date": "2026-11-01",
-      "name": "IntervalCoach - \uc810\uc9c4\uc801 \uc720\uc0b0\uc18c",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 242,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624, \uc624\ub298\uc740 \ucc28\ubd84\ud55c \uc720\uc0b0\uc18c \ub77c\uc774\ub529\uc774\uc5d0\uc694 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\ubd84\ud788 \ub2e4\uc838\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \uc9c0\uad6c\ub825\uc744 \ud0a4\uc6cc\uc918\uc694 15m ramp 45-75%\nMain Set"
-    },
-    {
-      "id": 146736546,
-      "date": "2026-11-03",
-      "name": "IntervalCoach - \uc810\uc9c4\uc801 \uc720\uc0b0\uc18c",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 87,
-      "duration_hours": 1.87,
-      "duration_formatted": "1h52m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624\ub2d8, \ucc28\uadfc\ucc28\uadfc \uc313\uc544\uac00\ub294 \ub77c\uc774\ub529\uc774\uc5d0\uc694 15^ \uc624\ub298\uc740 \ud68c\ubcf5\uae30\uc5d0 \uc5b4\uc6b8\ub9ac\ub294 \ucc28\ubd84\ud55c \ub77c\uc774\ub529\uc774\uc5d0\uc694 21^ \ub05d\uc5d0\ub294 \ud0c4\ud0c4\ud55c \uc720\uc0b0\uc18c \uae30\ubc18\uc774 \ub0a8\uc544\uc694 15m ramp 45-75%\nMain Set"
-    },
-    {
       "id": 146742522,
       "date": "2026-11-03",
       "name": "Endurance intervals \u00b7 150m by LeCoach App",
@@ -6831,20 +6806,6 @@
       "start_time": "17:00"
     },
     {
-      "id": 146736733,
-      "date": "2026-11-04",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \ud53d\uc5c5",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 70,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": "14m @150W | 12m @175W | 4\u00d71m30s @197W / 12m rec | 9m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true
-    },
-    {
       "id": 146742523,
       "date": "2026-11-04",
       "name": "5x3m 110% FTP by LeCoach App",
@@ -6856,21 +6817,6 @@
       "workout_summary": "5m @150W | 3\u00d730s @260W / 30s rec | 5m @156W | 20m @171W | 5\u00d73m @286W / 3m rec | 27m @171W | 5m @143W",
       "has_terrain": false,
       "start_time": "17:00"
-    },
-    {
-      "id": 146736798,
-      "date": "2026-11-05",
-      "name": "IntervalCoach - \ucf00\uc774\ub358\uc2a4 \uc9c0\uad6c\ub825",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 69,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624, \uc624\ub298\uc740 \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc774\uc5d0\uc694 15^ \uc624\ub298\uc740 \ud68c\ubcf5\uae30\uc5d0 \ub9de\ucdb0 \ud3b8\uc548\ud788 \ub2ec\ub824\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \uc9c0\uad6c\ub825\uc744 \ub2e4\uc838\uc918\uc694 14m ramp 45-75%\nMain Set"
     },
     {
       "id": 146742524,
@@ -6887,20 +6833,6 @@
       "description_preview": "-5m ramp 50-65% FTP 75% LTHR\n5x\n-10m 66% FTP 78% LTHR"
     },
     {
-      "id": 146736830,
-      "date": "2026-11-07",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \uc2a4\ud540\uc5c5",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 69,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": "14m @150W | 10m @175W | 5\u00d71m @187W / 10m rec | 9m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true
-    },
-    {
       "id": 146742525,
       "date": "2026-11-07",
       "name": "Rolling endurance \u00b7 245m by LeCoach App",
@@ -6914,21 +6846,6 @@
       "start_time": "17:00"
     },
     {
-      "id": 146736898,
-      "date": "2026-11-08",
-      "name": "IntervalCoach - \uc7a5\uac70\ub9ac \uc720\uc0b0\uc18c",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 196,
-      "duration_hours": 4.1,
-      "duration_formatted": "4h6m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc548\ub155 Youngoh, \ucc28\ubd84\ud55c \uc7a5\uac70\ub9ac \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694 15^ \uc624\ub298\uc740 \ud68c\ubcf5\uae30\uc5d0 \ub9de\ucdb0 \ucc28\ubd84\ud788 \ub2ec\ub824\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \uc9c0\uad6c\ub825\uc744 \ud0a4\uc6cc\uc904 \uac70\uc608\uc694 15m ramp 45-75%\nMain Set"
-    },
-    {
       "id": 146742526,
       "date": "2026-11-08",
       "name": "3x25m 82% FTP by LeCoach App",
@@ -6940,20 +6857,6 @@
       "workout_summary": "5m @150W | 14m @171W | 3\u00d725m @213W / 5m rec | 1h25m @171W | 10m @171W | 17m @171W | 14m @171W | 5m @143W",
       "has_terrain": false,
       "start_time": "17:00"
-    },
-    {
-      "id": 146737127,
-      "date": "2026-11-10",
-      "name": "IntervalCoach - \ucf00\uc774\ub358\uc2a4 \uc5ed\uce58 \ud53c\ub77c\ubbf8\ub4dc",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 117,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "15m @150W | 7m30s @175W | 3\u00d730s @225W / 7m30s rec | 4m @190W | 4m @210W | 4m @227W | 4m @240W | 4m @250W | 4m @240W | 4m @227W | 4m @210W | 4m @190W | 7m30s @175W | 3\u00d730s @225W / 7m30s rec | 10m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true
     },
     {
       "id": 146742527,
@@ -6998,21 +6901,6 @@
       "start_time": "17:00"
     },
     {
-      "id": 146737217,
-      "date": "2026-11-12",
-      "name": "IntervalCoach - \uc720\uc0b0\uc18c \uc9c0\uad6c\ub825",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 92,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624, \ucc28\ubd84\ud55c \uc720\uc0b0\uc18c \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694 15^ \uc624\ub298\uc740 \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825\uc744 \uc313\ub294 \ub77c\uc774\ub529\uc774\uc5d0\uc694 21^ \uafb8\uc900\ud788 \ub2ec\ub9ac\uba70 \ub354 \ud0c4\ud0c4\ud55c \uae30\ubc18\uc744 \ub9cc\ub4e4\uc5b4\uc694 15m ramp 45-75%\nMain Set"
-    },
-    {
       "id": 146742529,
       "date": "2026-11-12",
       "name": "Steady \u00b7 120m by LeCoach App",
@@ -7025,20 +6913,6 @@
       "has_terrain": false,
       "start_time": "17:00",
       "description_preview": "-5m ramp 50-65% FTP 75% LTHR\n-110m 66% FTP 78% LTHR\n-5m 55% FTP 74% LTHR"
-    },
-    {
-      "id": 146737283,
-      "date": "2026-11-14",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825\uacfc \uc2a4\ud540\uc5c5",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 94,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "15m @150W | 11m @175W | 7\u00d71m @187W / 11m rec | 10m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true
     },
     {
       "id": 146742530,
@@ -7083,21 +6957,6 @@
       "description_preview": "Warmup\n- \uc601\uc624\ub2d8, \uc624\ub298\uc740 \ucc28\ubd84\ud55c \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc774\uc5d0\uc694 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\ubd84\ud788 \uc313\uc544\uc694 21^ \ub05d\ub098\uba74 \uc624\ub798 \uc774\uc5b4\uac08 \ud798\uc774 \uc790\ub77c\uc694 15m ramp 45-75%\nMain Set"
     },
     {
-      "id": 146737420,
-      "date": "2026-11-17",
-      "name": "IntervalCoach - Sweet Spot \uc9c0\uc18d\uc8fc",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 129,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- Youngoh, \ubc18\uac00\uc6cc\uc694! \uc2a4\uc704\ud2b8\uc2a4\ud3ff \ub77c\uc774\ub529\uc774 \uae30\ub2e4\ub824\uc694 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\uadfc\ucc28\uadfc \ub2e4\uc838\uc694 21^ \ub05d\ub098\uba74 \uafb8\uc900\ud55c \ud398\uc774\uc2a4\uac00 \ub354 \ud3b8\ud574\uc838\uc694 12m ramp 45-75%\n- Primer 1 1m 91%"
-    },
-    {
       "id": 146742532,
       "date": "2026-11-17",
       "name": "Endurance intervals \u00b7 160m by LeCoach App",
@@ -7109,21 +6968,6 @@
       "workout_summary": "5m @150W | 10\u00d78m @171W / 7m rec | 5m @143W",
       "has_terrain": false,
       "start_time": "17:00"
-    },
-    {
-      "id": 146737704,
-      "date": "2026-11-18",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 92,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624\ub2d8, \ucc28\ubd84\ud55c \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694! 15^ \uc624\ub298\uc740 \uc9c0\uad6c\ub825\uc744 \ucc28\ubd84\ud788 \uc313\ub294 \ub0a0\uc774\uc5d0\uc694 21^ \uafb8\uc900\ud55c \ud398\uc774\uc2a4\uac00 \ub2f9\uc2e0\uc758 \uae30\ubc18\uc744 \ub2e8\ub2e8\ud558\uac8c \ud574\uc918\uc694 15m ramp 45-75%\nMain Set"
     },
     {
       "id": 146742533,
@@ -7153,21 +6997,6 @@
       "description_preview": "-5m ramp 50-65% FTP 75% LTHR\n5x\n-10m 66% FTP 78% LTHR"
     },
     {
-      "id": 146817317,
-      "date": "2026-11-19",
-      "name": "IntervalCoach - \uc9c0\ubc29 \ub300\uc0ac \uc9c0\uad6c\ub825",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 85,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624, \uc624\ub298\uc740 \uc9c0\ubc29 \ub300\uc0ac \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc774\uc5d0\uc694 15^ \uc624\ub298\uc740 \uae30\ubc18\uae30 \uc9c0\uad6c\ub825\uc744 \ucc28\ubd84\ud788 \ub2e4\uc838\uc694 21^ \uc624\ub798 \uc9c0\uc18d\ud560 \ud798\uc744 \ud0a4\uc6cc\uc904 \uac70\uc608\uc694 15m ramp 45-75%\nMain Set"
-    },
-    {
       "id": 146742535,
       "date": "2026-11-21",
       "name": "Rolling tempo \u00b7 3x20m 84% FTP by LeCoach App",
@@ -7180,20 +7009,6 @@
       "has_terrain": false,
       "start_time": "17:00",
       "description_preview": "-5m ramp 50-65% FTP 75% LTHR\n-12m 66% FTP 78% LTHR\n-40m 66% FTP 78% LTHR"
-    },
-    {
-      "id": 146817349,
-      "date": "2026-11-21",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \uc2a4\ud540\uc5c5",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 94,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "15m @150W | 11m @175W | 7\u00d71m @187W / 11m rec | 10m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true
     },
     {
       "id": 146742536,
@@ -7210,21 +7025,6 @@
       "description_preview": "-5m ramp 50-65% FTP 75% LTHR\n-232m 66% FTP 78% LTHR\n-5m 55% FTP 74% LTHR"
     },
     {
-      "id": 146817469,
-      "date": "2026-11-22",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825\uacfc \uc9e7\uc740 \uac00\uc18d",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 242,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624, \ubc18\uac00\uc6cc\uc694! \uc9c0\uad6c\ub825\uacfc \uc9e7\uc740 \uac00\uc18d\uc744 \uc900\ube44\ud574\uc694 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\ubd84\ud788 \ub2e4\uc838\uc694 21^ \uc9e7\uc740 \uac00\uc18d\uc774 \ud398\ub2ec \uac10\uac01\uc744 \uae68\uc6cc\uc904 \uac70\uc608\uc694 15m ramp 45-75%\nMain Set"
-    },
-    {
       "id": 146742537,
       "date": "2026-11-24",
       "name": "Rolling endurance \u00b7 160m by LeCoach App",
@@ -7236,20 +7036,6 @@
       "workout_summary": "5m @150W | 10\u00d78m @174W / 7m rec | 5m @143W",
       "has_terrain": false,
       "start_time": "17:00"
-    },
-    {
-      "id": 146817610,
-      "date": "2026-11-24",
-      "name": "IntervalCoach - \uc5ed\uce58 \ud3ec\uc2a4 \uc778\ud130\ubc8c",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 123,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "12m @150W | 3\u00d730s @237W / 45s rec | 5m @175W | 3m @167W | 3m @175W | 1m @217W | 4\u00d79m @237W / 5m rec | 5m @175W | 3m @167W | 3m @175W | 1m @217W | 10m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true
     },
     {
       "id": 146742538,
@@ -7265,21 +7051,6 @@
       "start_time": "17:00"
     },
     {
-      "id": 146817635,
-      "date": "2026-11-25",
-      "name": "IntervalCoach - \ud68c\ubcf5 \uc2a4\ud540\uc5c5",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 22,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624, \uac00\ubccd\uac8c \ud398\ub2ec\uc744 \uae68\uc6cc\ubd10\uc694! 15^ \uc624\ub298\uc740 \ud3b8\uc548\ud558\uac8c \ud68c\ubcf5\ud558\uba70 \uae30\ucd08\ub97c \ub2e4\uc838\uc694 21^ \ud398\ub2ec\ub9c1\uc774 \ud55c\uacb0 \ubd80\ub4dc\ub7ec\uc6cc\uc9c8 \uac70\uc608\uc694 7m ramp 45-55%\nMain Set"
-    },
-    {
       "id": 146742539,
       "date": "2026-11-26",
       "name": "Endurance intervals \u00b7 160m by LeCoach App",
@@ -7291,21 +7062,6 @@
       "workout_summary": "5m @150W | 10\u00d78m @174W / 7m rec | 5m @143W",
       "has_terrain": false,
       "start_time": "17:00"
-    },
-    {
-      "id": 146817674,
-      "date": "2026-11-26",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \ucf00\uc774\ub358\uc2a4 \ub77c\uc774\ub529",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 92,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624, \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825\uacfc \ucf00\uc774\ub358\uc2a4 \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694 15^ \uc624\ub298\uc740 \uc9c0\uad6c\ub825 \uae30\ubc18\uc744 \ucc28\ubd84\ud788 \ub2e4\uc838\uc694 21^ \ud398\ub2ec\ub9c1 \ub9ac\ub4ec\uacfc \uafb8\uc900\ud568\uc774 \uc790\ub77c\ub0a0 \uac70\uc608\uc694 15m ramp 45-75%\nMain Set"
     },
     {
       "id": 146742540,
@@ -7322,21 +7078,6 @@
       "description_preview": "-5m ramp 50-65% FTP 75% LTHR\n8x\n-10m 67% FTP 78% LTHR"
     },
     {
-      "id": 146817815,
-      "date": "2026-11-28",
-      "name": "IntervalCoach - \ucf00\uc774\ub358\uc2a4 \ubcc0\uc8fc \uc9c0\uad6c\ub825",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 92,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624\ub2d8, \uc624\ub298\uc740 \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc774\uc5d0\uc694! 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\uace1\ucc28\uace1 \uc313\uc544\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \uc624\ub798\uac08 \ud798\uc744 \uc918\uc694 15m ramp 45-75%\nMain Set"
-    },
-    {
       "id": 146742541,
       "date": "2026-11-29",
       "name": "4x20m 84% FTP by LeCoach App",
@@ -7348,21 +7089,6 @@
       "workout_summary": "5m @150W | 14m @174W | 4\u00d720m @218W / 5m rec | 1h20m @174W | 5m @174W | 17m @174W | 14m @174W | 5m @143W",
       "has_terrain": false,
       "start_time": "17:00"
-    },
-    {
-      "id": 146817931,
-      "date": "2026-11-29",
-      "name": "IntervalCoach - \uc7a5\uac70\ub9ac \uc720\uc0b0\uc18c \ub77c\uc774\ub529",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 239,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624, \uc624\ub298\uc740 \uae34 \uc720\uc0b0\uc18c \ub77c\uc774\ub529\uc774\uc5d0\uc694 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ub2e4\uc9c0\ub294 \ub0a0\uc774\uc5d0\uc694 21^ \uafb8\uc900\ud788 \ub2ec\ub9ac\uba70 \uc9c0\uad6c\ub825\uc744 \ud0a4\uc6cc\ubcf4\uc138\uc694 15m ramp 45-75%\nMain Set"
     },
     {
       "id": 146742542,
@@ -7379,21 +7105,6 @@
       "description_preview": "-5m ramp 50-65% FTP 75% LTHR\n-150m 67% FTP 78% LTHR\n-5m 55% FTP 74% LTHR"
     },
     {
-      "id": 146818045,
-      "date": "2026-12-01",
-      "name": "IntervalCoach - \uc810\uc9c4\uc801 \uc720\uc0b0\uc18c",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 62,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624, \uc624\ub298\uc740 \uc810\uc9c4\uc801 \uc720\uc0b0\uc18c \ub77c\uc774\ub529\uc774\uc5d0\uc694! 15^ \uc624\ub298\uc740 \ud68c\ubcf5\uae30\uc5d0 \ub9de\ucdb0 \ucc28\ubd84\ud788 \uc313\uc544\uc694 21^ \ub05d\ub098\uba74 \uc720\uc0b0\uc18c \uae30\ubc18\uc774 \ub2e8\ub2e8\ud574\uc838\uc694 12m ramp 45-75%\nMain Set"
-    },
-    {
       "id": 146742543,
       "date": "2026-12-02",
       "name": "FTP Ramp Test by LeCoach App",
@@ -7408,20 +7119,6 @@
       "description_preview": "-5m 50% FTP 73% LTHR\n-1m 65% FTP 78% LTHR\n-1m 70% FTP 79% LTHR"
     },
     {
-      "id": 146818080,
-      "date": "2026-12-02",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \uc2a4\ud540\uc5c5",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 62,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
-      "workout_summary": "12m @150W | 9m @175W | 5\u00d71m @187W / 9m rec | 8m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true
-    },
-    {
       "id": 146742544,
       "date": "2026-12-03",
       "name": "Rolling endurance \u00b7 165m by LeCoach App",
@@ -7433,35 +7130,21 @@
       "workout_summary": "5m @150W | 10\u00d78m @174W / 7m rec | 5m @174W | 5m @143W",
       "has_terrain": false,
       "start_time": "17:00"
-    },
-    {
-      "id": 146818220,
-      "date": "2026-12-03",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \uac00\uc18d",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 62,
-      "duration_hours": 1.32,
-      "duration_formatted": "1h19m",
-      "workout_summary": "12m @150W | 10m @175W | 4\u00d71m30s @197W / 10m rec | 8m @137W",
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true
     }
   ],
   "workout_summary_stats": {
-    "attempted": 62,
-    "success": 30,
+    "attempted": 35,
+    "success": 20,
     "patternA": 19,
-    "patternB": 11,
+    "patternB": 1,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 32
+    "bail_no_match": 15
   },
   "weekly_summary": {
-    "total_training_hours": 5.0,
-    "total_training_formatted": "4h59m",
-    "total_tss": 269,
-    "activities_count": 6,
+    "total_training_hours": 6.97,
+    "total_training_formatted": "6h58m",
+    "total_tss": 371,
+    "activities_count": 7,
     "avg_hrv": 61.2,
     "avg_resting_hr": 50.4
   },
