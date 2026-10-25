@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 12.37,
-      "total_training_formatted": "12h21m",
-      "total_activities": 7,
-      "total_tss": 643
+      "total_training_hours": 9.88,
+      "total_training_formatted": "9h52m",
+      "total_activities": 6,
+      "total_tss": 505
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-24T23:42:41.036296",
+    "last_updated": "2026-10-25T01:39:42.310913",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -121,16 +121,16 @@
       },
       "acwr": {
         "status": "green",
-        "value": 0.9
+        "value": 0.78
       },
       "ri": {
         "status": "unavailable",
         "value": null,
-        "value_yesterday": 1.11
+        "value_yesterday": null
       },
       "tsb": {
         "status": "green",
-        "value": 4.3
+        "value": 14.6
       }
     },
     "signal_summary": {
@@ -153,15 +153,15 @@
   "history": {
     "available": true,
     "last_generated": "2026-09-07",
-    "age_days": 47,
+    "age_days": 48,
     "total_months": 35,
     "history_confidence": "high"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 12.37,
-    "total_activities": 7,
+    "total_duration_decimal_hours": 9.88,
+    "total_activities": 6,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 5.78,
@@ -188,13 +188,13 @@
         }
       },
       "VirtualRide": {
-        "duration_decimal_hours": 6.24,
-        "count": 4,
-        "tss": 369,
-        "distance_km": 229.0,
+        "duration_decimal_hours": 3.75,
+        "count": 3,
+        "tss": 231,
+        "distance_km": 128.9,
         "display": {
           "distance": {
-            "value": 229.0,
+            "value": 128.9,
             "unit": "km"
           }
         }
@@ -215,17 +215,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 99.4,
-      "atl": 95.08,
-      "tsb": 4.32,
-      "ramp_rate": -1.07,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 97.06,
+      "atl": 82.42,
+      "tsb": 14.64,
+      "ramp_rate": -1.05,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 260.7,
-      "w_prime": 21025,
+      "eftp": 260.5,
+      "w_prime": 21004,
       "w_prime_kj": 21.0,
-      "p_max": 912,
+      "p_max": 911,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -284,7 +284,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3143,
+      "steps": null,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -310,84 +310,84 @@
   },
   "derived_metrics": {
     "recovery_index": null,
-    "recovery_index_yesterday": 1.11,
+    "recovery_index_yesterday": null,
     "hrv_baseline_7d": 63.1,
     "rhr_baseline_7d": 50.5,
     "hrv_baseline_28d": 60.2,
-    "rhr_baseline_28d": 47.9,
+    "rhr_baseline_28d": 47.6,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 0.9,
-    "acwr_interpretation": "optimal",
-    "monotony": 0.9,
+    "acwr": 0.78,
+    "acwr_interpretation": "undertraining",
+    "monotony": 0.69,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.9,
-    "primary_sport_tss_7d": 643.0,
-    "effective_monotony": 0.9,
+    "primary_sport_monotony": 0.69,
+    "primary_sport_tss_7d": 505.0,
+    "effective_monotony": 0.69,
     "multi_sport_detected": false,
-    "strain": 579.0,
-    "stress_tolerance": 6.4,
+    "strain": 348.0,
+    "stress_tolerance": 5.0,
     "load_recovery_ratio": null,
-    "tss_7d_total": 643.0,
-    "tss_28d_total": 2864.0,
+    "tss_7d_total": 505.0,
+    "tss_28d_total": 2585.0,
     "zone_distribution_7d": {
-      "z1_hours": 3.08,
-      "z2_hours": 4.94,
-      "z3_hours": 2.57,
-      "z4_plus_hours": 1.42,
-      "total_hours": 12.02,
+      "z1_hours": 2.91,
+      "z2_hours": 3.56,
+      "z3_hours": 1.81,
+      "z4_plus_hours": 1.24,
+      "total_hours": 9.53,
       "zone_basis": "power"
     },
-    "grey_zone_percentage": 21.4,
+    "grey_zone_percentage": 19.0,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 11.8,
+    "quality_intensity_percentage": 13.1,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.67,
+    "easy_time_ratio": 0.68,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 2,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 28887,
-      "z2_seconds": 9253,
-      "z3_seconds": 5121,
-      "z1_pct": 66.8,
-      "z2_pct": 21.4,
-      "z3_pct": 11.8,
+      "z1_seconds": 23307,
+      "z2_seconds": 6512,
+      "z3_seconds": 4477,
+      "z1_pct": 68.0,
+      "z2_pct": 19.0,
+      "z3_pct": 13.1,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 28887,
-      "z2_seconds": 9253,
-      "z3_seconds": 5121,
-      "z1_pct": 66.8,
-      "z2_pct": 21.4,
-      "z3_pct": 11.8,
+      "z1_seconds": 23307,
+      "z2_seconds": 6512,
+      "z3_seconds": 4477,
+      "z1_pct": 68.0,
+      "z2_pct": 19.0,
+      "z3_pct": 13.1,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 143965,
-      "z2_seconds": 45134,
-      "z3_seconds": 21693,
-      "z1_pct": 68.3,
+      "z1_seconds": 128297,
+      "z2_seconds": 40315,
+      "z3_seconds": 20049,
+      "z1_pct": 68.0,
       "z2_pct": 21.4,
-      "z3_pct": 10.3,
+      "z3_pct": 10.6,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 141155,
-      "z2_seconds": 45134,
-      "z3_seconds": 21693,
-      "z1_pct": 67.9,
+      "z1_seconds": 125487,
+      "z2_seconds": 40315,
+      "z3_seconds": 20049,
+      "z1_pct": 67.5,
       "z2_pct": 21.7,
-      "z3_pct": 10.4,
+      "z3_pct": 10.8,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power",
@@ -434,12 +434,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-09-27",
-          "end": "2026-10-24"
+          "start": "2026-09-28",
+          "end": "2026-10-25"
         },
         "previous_window": {
-          "start": "2026-08-30",
-          "end": "2026-09-26"
+          "start": "2026-08-31",
+          "end": "2026-09-27"
         },
         "anchors": {
           "5s": {
@@ -474,12 +474,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-09-27",
-          "end": "2026-10-24"
+          "start": "2026-09-28",
+          "end": "2026-10-25"
         },
         "previous_window": {
-          "start": "2026-08-30",
-          "end": "2026-09-26"
+          "start": "2026-08-31",
+          "end": "2026-09-27"
         },
         "anchors": {
           "60s": {
@@ -509,8 +509,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-09-13",
-          "end": "2026-10-24"
+          "start": "2026-09-14",
+          "end": "2026-10-25"
         },
         "weight_kg": 65.8,
         "weight_source": "wellness_extended",
@@ -603,24 +603,24 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 260,
-          "w_prime_used": 21025,
-          "ftp_staleness_days": 142,
+          "w_prime_used": 21004,
+          "ftp_staleness_days": 143,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.5,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 2,
-      "completed_days": 4,
+      "planned_days": 3,
+      "completed_days": 3,
       "matched_days": 1,
       "planned_dates": [
         "2026-10-21",
-        "2026-10-22"
+        "2026-10-22",
+        "2026-10-25"
       ],
       "completed_dates": [
-        "2026-10-18",
         "2026-10-20",
         "2026-10-22",
         "2026-10-24"
@@ -638,7 +638,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.62,
+          "planned_tss_delta": 1.23,
           "hard_sessions_planned": 1,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 3,
@@ -672,19 +672,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 260.7,
-    "w_prime": 21025,
+    "eftp": 260.5,
+    "w_prime": 21004,
     "w_prime_kj": 21.0,
-    "p_max": 912,
+    "p_max": 911,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-24T23:42:41.034978",
+    "calculation_timestamp": "2026-10-25T01:39:42.309697",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 4,
-      "activities_7d": 7,
-      "activities_28d": 28,
-      "planned_workouts_7d": 3,
+      "activities_7d": 6,
+      "activities_28d": 27,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2278,7 +2278,7 @@
           "z7_time": 14
         }
       },
-      "has_intervals": true,
+      "has_intervals": false,
       "has_dfa": false,
       "terrain_summary": {
         "source": "activity_streams",
@@ -5754,629 +5754,9 @@
       },
       "weather_status": "unavailable",
       "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 8/10\nTSS: 118\n\ud6c8\ub828 \uc790\uadf9: threshold\n\uc608\uc0c1 \ud68c\ubcf5: 45h\n\n\ud83d\udd17 interval.coach/r/AZWWHV"
-    },
-    {
-      "id": "i190892135",
-      "date": "2026-09-27T10:44:37",
-      "type": "Ride",
-      "name": "IntervalCoach - \uc9c0\uc18d\uc8fc",
-      "duration_hours": 6.15,
-      "distance_km": 156.33,
-      "tss": 279,
-      "intensity_factor": 67.30769,
-      "avg_power": 146,
-      "normalized_power": 175,
-      "avg_hr": 137,
-      "max_hr": 189,
-      "avg_cadence": 84.37318,
-      "avg_speed": 25.4,
-      "avg_speed_unit": "KPH",
-      "max_speed": 58.3,
-      "max_speed_unit": "KPH",
-      "avg_pace": null,
-      "avg_temp": 20.178492,
-      "avg_temp_unit": "C",
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "wind_speed_unit": "KMH",
-      "work_kj": 3240.0,
-      "calories": 3520,
-      "carbs_used": 614,
-      "carbs_ingested": null,
-      "variability_index": 1.1986301,
-      "decoupling": 16.66117,
-      "efficiency_factor": 1.2773722,
-      "hrrc": null,
-      "elevation_m": 2128.0,
-      "display": {
-        "distance": {
-          "value": 156.33,
-          "unit": "km"
-        },
-        "elevation": {
-          "value": 2128,
-          "unit": "m"
-        },
-        "avg_speed": {
-          "value": 25.4,
-          "unit": "km/h"
-        },
-        "max_speed": {
-          "value": 58.3,
-          "unit": "km/h"
-        }
-      },
-      "feel": null,
-      "rpe": null,
-      "effort_response": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 7827,
-          "z2_time": 5960,
-          "z3_time": 2481,
-          "z4_time": 3529,
-          "z5_time": 143,
-          "z6_time": 81,
-          "z7_time": 47
-        },
-        "power_zones": {
-          "z1_time": 9143,
-          "z2_time": 6525,
-          "z3_time": 4819,
-          "z4_time": 1403,
-          "z5_time": 187,
-          "z6_time": 50,
-          "z7_time": 4
-        }
-      },
-      "has_intervals": false,
-      "has_dfa": false,
-      "terrain_summary": {
-        "source": "activity_streams",
-        "total_distance_km": 156.2,
-        "total_elevation_m": 2203,
-        "elevation_per_km": 14.1,
-        "course_character": "rolling",
-        "max_grade_pct": 14.2,
-        "grade_distribution": {
-          "flat_pct": 35.9,
-          "gentle_pct": 27.6,
-          "moderate_pct": 26.3,
-          "steep_pct": 10.2
-        },
-        "start_coords": [
-          49.74566,
-          6.69081
-        ],
-        "climbs": [
-          {
-            "position_km": 51.7,
-            "distance_km": 7.7,
-            "elevation_m": 174,
-            "avg_gradient_pct": 2.3,
-            "start_coords": [
-              49.89869,
-              6.38282
-            ],
-            "end_coords": [
-              49.91865,
-              6.30547
-            ],
-            "display": {
-              "position": {
-                "value": 51.7,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 7.7,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": 174,
-                "unit": "m"
-              }
-            },
-            "max_gradient_pct": 8.7,
-            "category": "Cat 4"
-          },
-          {
-            "position_km": 64.3,
-            "distance_km": 7.7,
-            "elevation_m": 212,
-            "avg_gradient_pct": 2.8,
-            "start_coords": [
-              49.94946,
-              6.27671
-            ],
-            "end_coords": [
-              50.00751,
-              6.26212
-            ],
-            "display": {
-              "position": {
-                "value": 64.3,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 7.7,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": 212,
-                "unit": "m"
-              }
-            },
-            "max_gradient_pct": 10.9,
-            "category": "Cat 3"
-          },
-          {
-            "position_km": 81.6,
-            "distance_km": 4.2,
-            "elevation_m": 189,
-            "avg_gradient_pct": 4.5,
-            "start_coords": [
-              50.02716,
-              6.18003
-            ],
-            "end_coords": [
-              50.04063,
-              6.14971
-            ],
-            "display": {
-              "position": {
-                "value": 81.6,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 4.2,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": 189,
-                "unit": "m"
-              }
-            },
-            "max_gradient_pct": 7.9,
-            "category": "Cat 4"
-          },
-          {
-            "position_km": 112.7,
-            "distance_km": 6.9,
-            "elevation_m": 177,
-            "avg_gradient_pct": 2.6,
-            "start_coords": [
-              50.21266,
-              6.17056
-            ],
-            "end_coords": [
-              50.20372,
-              6.2332
-            ],
-            "display": {
-              "position": {
-                "value": 112.7,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 6.9,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": 177,
-                "unit": "m"
-              }
-            },
-            "max_gradient_pct": 11.0,
-            "category": "Cat 4"
-          },
-          {
-            "position_km": 129.4,
-            "distance_km": 1.8,
-            "elevation_m": 95,
-            "avg_gradient_pct": 5.2,
-            "start_coords": [
-              50.15928,
-              6.33411
-            ],
-            "end_coords": [
-              50.15504,
-              6.35745
-            ],
-            "display": {
-              "position": {
-                "value": 129.4,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 1.8,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": 95,
-                "unit": "m"
-              }
-            },
-            "max_gradient_pct": 8.6,
-            "category": null
-          },
-          {
-            "position_km": 140.0,
-            "distance_km": 3.6,
-            "elevation_m": 144,
-            "avg_gradient_pct": 4.0,
-            "start_coords": [
-              50.15119,
-              6.45786
-            ],
-            "end_coords": [
-              50.14971,
-              6.49824
-            ],
-            "display": {
-              "position": {
-                "value": 140.0,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 3.6,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": 144,
-                "unit": "m"
-              }
-            },
-            "max_gradient_pct": 6.7,
-            "category": "Cat 4"
-          },
-          {
-            "position_km": 145.7,
-            "distance_km": 1.6,
-            "elevation_m": 81,
-            "avg_gradient_pct": 5.0,
-            "start_coords": [
-              50.1415,
-              6.51815
-            ],
-            "end_coords": [
-              50.13265,
-              6.52416
-            ],
-            "display": {
-              "position": {
-                "value": 145.7,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 1.6,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": 81,
-                "unit": "m"
-              }
-            },
-            "max_gradient_pct": 6.9,
-            "category": null
-          }
-        ],
-        "descents": [
-          {
-            "position_km": 0.0,
-            "distance_km": 7.0,
-            "elevation_m": -135,
-            "avg_gradient_pct": -1.9,
-            "start_coords": [
-              49.74566,
-              6.69081
-            ],
-            "end_coords": [
-              49.73241,
-              6.6237
-            ],
-            "display": {
-              "position": {
-                "value": 0.0,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 7.0,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": -135,
-                "unit": "m"
-              }
-            }
-          },
-          {
-            "position_km": 58.8,
-            "distance_km": 2.3,
-            "elevation_m": -87,
-            "avg_gradient_pct": -3.8,
-            "start_coords": [
-              49.9146,
-              6.31107
-            ],
-            "end_coords": [
-              49.93026,
-              6.29777
-            ],
-            "display": {
-              "position": {
-                "value": 58.8,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 2.3,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": -87,
-                "unit": "m"
-              }
-            }
-          },
-          {
-            "position_km": 78.2,
-            "distance_km": 3.5,
-            "elevation_m": -219,
-            "avg_gradient_pct": -6.3,
-            "start_coords": [
-              50.01373,
-              6.20411
-            ],
-            "end_coords": [
-              50.02716,
-              6.18003
-            ],
-            "display": {
-              "position": {
-                "value": 78.2,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 3.5,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": -219,
-                "unit": "m"
-              }
-            }
-          },
-          {
-            "position_km": 85.9,
-            "distance_km": 1.4,
-            "elevation_m": -78,
-            "avg_gradient_pct": -5.4,
-            "start_coords": [
-              50.04063,
-              6.14971
-            ],
-            "end_coords": [
-              50.04627,
-              6.14761
-            ],
-            "display": {
-              "position": {
-                "value": 85.9,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 1.4,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": -78,
-                "unit": "m"
-              }
-            }
-          },
-          {
-            "position_km": 104.3,
-            "distance_km": 4.7,
-            "elevation_m": -179,
-            "avg_gradient_pct": -3.8,
-            "start_coords": [
-              50.16734,
-              6.17859
-            ],
-            "end_coords": [
-              50.18894,
-              6.15179
-            ],
-            "display": {
-              "position": {
-                "value": 104.3,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 4.7,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": -179,
-                "unit": "m"
-              }
-            }
-          },
-          {
-            "position_km": 124.9,
-            "distance_km": 4.5,
-            "elevation_m": -132,
-            "avg_gradient_pct": -2.9,
-            "start_coords": [
-              50.18204,
-              6.29382
-            ],
-            "end_coords": [
-              50.15928,
-              6.33411
-            ],
-            "display": {
-              "position": {
-                "value": 124.9,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 4.5,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": -132,
-                "unit": "m"
-              }
-            }
-          },
-          {
-            "position_km": 131.2,
-            "distance_km": 0.6,
-            "elevation_m": -50,
-            "avg_gradient_pct": -8.1,
-            "start_coords": [
-              50.15504,
-              6.35745
-            ],
-            "end_coords": [
-              50.15243,
-              6.36483
-            ],
-            "display": {
-              "position": {
-                "value": 131.2,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 0.6,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": -50,
-                "unit": "m"
-              }
-            }
-          },
-          {
-            "position_km": 143.7,
-            "distance_km": 2.1,
-            "elevation_m": -103,
-            "avg_gradient_pct": -5.0,
-            "start_coords": [
-              50.14971,
-              6.49824
-            ],
-            "end_coords": [
-              50.1415,
-              6.51815
-            ],
-            "display": {
-              "position": {
-                "value": 143.7,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 2.1,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": -103,
-                "unit": "m"
-              }
-            }
-          },
-          {
-            "position_km": 147.3,
-            "distance_km": 8.8,
-            "elevation_m": -212,
-            "avg_gradient_pct": -2.4,
-            "start_coords": [
-              50.13265,
-              6.52416
-            ],
-            "end_coords": [
-              50.12413,
-              6.60047
-            ],
-            "display": {
-              "position": {
-                "value": 147.3,
-                "unit": "km"
-              },
-              "distance": {
-                "value": 8.8,
-                "unit": "km"
-              },
-              "elevation": {
-                "value": -212,
-                "unit": "m"
-              }
-            }
-          }
-        ],
-        "display": {
-          "total_distance": {
-            "value": 156.2,
-            "unit": "km"
-          },
-          "total_elevation": {
-            "value": 2203,
-            "unit": "m"
-          },
-          "elevation_per_distance": {
-            "value": 14,
-            "unit": "m/km"
-          }
-        }
-      },
-      "weather_status": "unavailable",
-      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 9/10\nTSS: 279\n\ud6c8\ub828 \uc790\uadf9: endurance\n\uc608\uc0c1 \ud68c\ubcf5: 56h\n\n\ud83d\udcc8 \uc9c4\uc804 (10\uc8fc \uc804 \ub300\ube44) \u2014 \"Ech hunn L\u00ebtzebuerg g\u00e4r. \ud83c\uddf1\ud83c\uddfa\", 7\uc6d4 19\uc77c\nPower: +6W (+3.6%)\nHR: +5 bpm\nTrend: \uc9c4\uc804 \uc911\n\n\ud83d\udd17 interval.coach/r/AZWWHV"
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-10-18",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 1531,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-10-19",
       "weight_kg": null,
@@ -6628,6 +6008,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-10-25",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
@@ -6719,7 +6141,7 @@
       "has_terrain": false,
       "start_time": "17:00",
       "indoor": true,
-      "description_preview": "Warmup\n- \uc601\uc624\ub2d8, \uc9c0\uad6c\ub825\uacfc \ucf00\uc774\ub358\uc2a4 \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694! 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\uadfc\ucc28\uadfc \uc313\uc544\uc694 21^ \ud3b8\uc548\ud55c \ud398\ub2ec\ub9c1\uc774 \uc624\ub798\uac00\ub294 \ud798\uc744 \uae38\ub7ec\uc918\uc694 15m ramp 45-75%\nMain Set"
+      "description": "Warmup\n- \uc601\uc624\ub2d8, \uc9c0\uad6c\ub825\uacfc \ucf00\uc774\ub358\uc2a4 \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694! 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\uadfc\ucc28\uadfc \uc313\uc544\uc694 21^ \ud3b8\uc548\ud55c \ud398\ub2ec\ub9c1\uc774 \uc624\ub798\uac00\ub294 \ud798\uc744 \uae38\ub7ec\uc918\uc694 15m ramp 45-75%\n\nMain Set\n- High Cadence 1 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \uac00\ubccd\uac8c \ub3cc\ub9ac\uba70 \ud798\uc744 \uc544\uaef4\uc694 240^ \ud3b8\uc548\ud55c \ub9ac\ub4ec\uc774 \uc624\ub798\uac00\ub294 \uae30\ubc18\uc744 \ub9cc\ub4e4\uc5b4\uc694 6m 70%\n- Low Cadence 1 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \uac00\ubccd\uac8c \ub3cc\ub9ac\uba70 \ud798\uc744 \uc544\uaef4\uc694 240^ \ud3b8\uc548\ud55c \ub9ac\ub4ec\uc774 \uc624\ub798\uac00\ub294 \uae30\ubc18\uc744 \ub9cc\ub4e4\uc5b4\uc694 6m 70%\n- High Cadence 2 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ucf00\uc774\ub358\uc2a4\ub97c \ubd80\ub4dc\ub7fd\uac8c \ubc14\uafd4\ubd10\uc694 240^ \uc5ec\uc720 \uc788\ub294 \ud398\ub2ec\ub9c1\ub3c4 \ud6c8\ub828\uc774\uc5d0\uc694 6m 70%\n- Low Cadence 2 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ucf00\uc774\ub358\uc2a4\ub97c \ubd80\ub4dc\ub7fd\uac8c \ubc14\uafd4\ubd10\uc694 240^ \uc5ec\uc720 \uc788\ub294 \ud398\ub2ec\ub9c1\ub3c4 \ud6c8\ub828\uc774\uc5d0\uc694 6m 70%\n- High Cadence 3 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 3 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 4 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 4 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 5 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 5 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 6 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 6 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 7 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 7 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 8 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 8 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 9 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 9 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 10 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 10 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 11 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 11 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 12 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 12 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 13 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 13 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 14 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 14 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 15 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 15 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 16 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 16 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 17 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 17 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 18 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 18 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 19 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 19 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 20 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 20 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 21 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 21 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 22 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 22 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 23 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 360^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 480^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 11m 70%\n\nCooldown\n- \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1, \uc815\ub9d0 \ud6cc\ub96d\ud588\uc5b4\uc694! 10^ \uc9c0\uad6c\ub825\uacfc \ub9e4\ub044\ub7ec\uc6b4 \ucf00\uc774\ub358\uc2a4\ub97c \ud6c8\ub828\ud588\uc5b4\uc694 16^ \uc624\ub298\uc758 \uc131\uc7a5\uc744 \uae30\uc058\uac8c \ub204\ub824\uc694! 10m ramp 65-45%\n\n\n[Weekly Plan - Base \u00b7 type:enduranceCadence]"
     },
     {
       "id": 147743634,
@@ -7073,21 +6495,36 @@
       "start_time": "17:00",
       "indoor": true,
       "description_preview": "Warmup\n- \uc601\uc624, \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825\uacfc \ucf00\uc774\ub358\uc2a4 \ub77c\uc774\ub529\uc774 \uae30\ub2e4\ub824\uc694 15^ \uc624\ub298\uc740 \ud68c\ubcf5\uae30\uc5d0 \ub9de\ucdb0 \ud3b8\uc548\ud558\uac8c \ub2ec\ub824\uc694 21^ \ubd80\ub4dc\ub7ec\uc6b4 \ud398\ub2ec\ub9c1 \uac10\uac01\uc744 \ud0a4\uc6cc\ubd10\uc694 12m ramp 45-75%\nMain Set"
+    },
+    {
+      "id": 147746590,
+      "date": "2026-12-06",
+      "name": "IntervalCoach - \uc9c0\ubc29\ub300\uc0ac \uc9c0\uad6c\ub825",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 142,
+      "duration_hours": 3.42,
+      "duration_formatted": "3h25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "indoor": true,
+      "description_preview": "Warmup\n- \uc601\uc624, \uc624\ub298\uc740 \ud3b8\uc548\ud55c \uc9c0\ubc29 \ub300\uc0ac \ub77c\uc774\ub529! 15^ \uc624\ub298\uc740 \ud68c\ubcf5\uc744 \uc0b4\ub9ac\ub294 \ucc28\ubd84\ud55c \ub77c\uc774\ub529\uc774\uc5d0\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \uc9c0\uad6c\ub825\uc744 \uae38\ub7ec\uc918\uc694 15m ramp 45-75%\nMain Set"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 30,
+    "attempted": 31,
     "success": 7,
     "patternA": 0,
     "patternB": 7,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 23
+    "bail_no_match": 24
   },
   "weekly_summary": {
-    "total_training_hours": 12.37,
-    "total_training_formatted": "12h21m",
-    "total_tss": 643,
-    "activities_count": 7,
+    "total_training_hours": 9.88,
+    "total_training_formatted": "9h52m",
+    "total_tss": 505,
+    "activities_count": 6,
     "avg_hrv": 63.1,
     "avg_resting_hr": 50.5
   },
