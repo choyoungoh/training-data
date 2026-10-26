@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-26T06:58:45.933293",
+    "last_updated": "2026-10-26T13:57:56.752946",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -130,7 +130,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 12.9
+        "value": 23.3
       }
     },
     "signal_summary": {
@@ -203,11 +203,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 97.37,
-      "atl": 84.49,
-      "tsb": 12.88,
-      "ramp_rate": -1.6,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ctl": 94.77,
+      "atl": 71.45,
+      "tsb": 23.32,
+      "ramp_rate": -4.19,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 260.2,
@@ -263,7 +263,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 95.7,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -272,7 +272,7 @@
       "respiration": 16.6,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6,
+      "steps": 4443,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -598,15 +598,16 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.33,
+    "consistency_index": 0.25,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 4,
       "completed_days": 3,
       "matched_days": 1,
       "planned_dates": [
         "2026-10-21",
         "2026-10-22",
-        "2026-10-25"
+        "2026-10-25",
+        "2026-10-26"
       ],
       "completed_dates": [
         "2026-10-20",
@@ -626,13 +627,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.01,
-          "hard_sessions_planned": 5,
+          "planned_tss_delta": 1.35,
+          "hard_sessions_planned": 6,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 5,
+          "current_week_hard_days_total": 6,
           "race_proximity": null,
           "next_week_load": 0.7,
-          "plan_coverage_current_week": 0.71,
+          "plan_coverage_current_week": 0.86,
           "plan_coverage_next_week": 0.71
         },
         "data_quality": "good",
@@ -666,13 +667,13 @@
     "p_max": 910,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-26T06:58:45.932080",
+    "calculation_timestamp": "2026-10-26T13:57:56.751726",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
       "activities_7d": 5,
       "activities_28d": 27,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -6020,7 +6021,7 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 95.7,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
@@ -6029,7 +6030,7 @@
       "respiration": 16.6,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6,
+      "steps": 4443,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -6042,19 +6043,33 @@
   ],
   "planned_workouts": [
     {
-      "id": 147742694,
-      "date": "2026-10-27",
-      "name": "IntervalCoach - Sweet Spot \ubc18\ubcf5\uc8fc",
+      "id": 148434843,
+      "date": "2026-10-26",
+      "name": "IntervalCoach - \uc2e4\ub0b4 \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 129,
+      "planned_tss": 92,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
       "indoor": true,
-      "description": "Warmup\n- \uc601\uc624, \ubc18\uac00\uc6cc\uc694! \uc624\ub298\uc740 \uafb8\uc900\ud55c \uc2a4\uc704\ud2b8 \uc2a4\ud3ff \ub77c\uc774\ub529\uc774\uc5d0\uc694 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\uadfc\ucc28\uadfc \ub2e4\uc838\uc694 21^ \uafb8\uc900\ud55c \ud798\uacfc \ud398\ub2ec \uac10\uac01\uc744 \uc5bb\uc5b4\uc694 12m ramp 45-75%\n- Primer 1 1m 91%\n- Primer recovery 30s 55%\n- Primer 2 1m 91%\n- Primer recovery 30s 55%\n\nMain Set\n- Steady 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \uac00\ubccd\uac8c \ub3cc\ub9ac\uba70 \ud798\uc744 \uc544\uaef4\uc694 4m 70%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ud68c\ubcf5\ub3c4 \uae30\ucd08 \uccb4\ub825\uc5d0 \uaf2d \ud544\uc694\ud574\uc694 5m 70%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 67%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 70%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 87%\n- Sweet Spot 1 5^ \uc2a4\uc704\ud2b8 \uc2a4\ud31f: threshold\ubcf4\ub2e4 \uc0b4\uc9dd \ub0ae\uac8c, \ubd80\ub4dc\ub7fd\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \uc601\uc624, \ucc28\ubd84\ud558\uace0 \uafb8\uc900\ud558\uac8c \ubc00\uc5b4\uc8fc\uc138\uc694 240^ \uae30\ucd08 \uccb4\ub825\uc744 \uc313\ub294 \uc911\uc774\uc5d0\uc694 360^ \uc808\ubc18\uc744 \ud574\ub0c8\uc5b4\uc694, \uafb8\uc900\ud568\uc744 \uc774\uc5b4\uac00\uc694 480^ \ud638\ud761\uc744 \uace0\ub974\uace0 \ud798\uc744 \uc77c\uc815\ud558\uac8c 600^ \ubd80\ub4dc\ub7ec\uc6b4 \ud398\ub2ec\ub9c1\uc744 \uacc4\uc18d \uc774\uc5b4\uac00\uc694 660^ \ub9c8\uc9c0\ub9c9\uae4c\uc9c0 \ubd80\ub4dc\ub7ec\uc6b4 \ud798\uc744 \uc720\uc9c0\ud574\uc694 12m 92%\n- Recovery 5^ \ud68c\ubcf5: \ub2e4\ub9ac \ud3b8\ud558\uac8c, \uc2ec\ubc15\uc218 \ub5a8\uc5b4\uc9c0\uac8c \ub450\uae30 3m 55%\n- Sweet Spot 2 5^ \uc774\uac74 \uc774\ubbf8 \uc544\ub294 \uad6c\uac04, \uae68\ub057\ud558\uac8c \ud0c0\uae30 120^ \uc9c0\uae08\uc758 \uafb8\uc900\ud568\uc774 \ud0c4\ud0c4\ud55c \uae30\ubc18\uc774\uc5d0\uc694 240^ \ub05d\uae4c\uc9c0 \ud3b8\uc548\ud55c \uc9d1\uc911\uc744 \uc720\uc9c0\ud574\uc694 330^ \uc9c0\uae08\ucc98\ub7fc \ud798\uc744 \ucc28\ubd84\ud788 \uc870\uc808\ud574\uc694 480^ \uc88b\uc544\uc694, \uc815\ud655\ud788 \uc774 \uac15\ub3c4\uc608\uc694 600^ \ud638\ud761\uc744 \uc815\ub3c8\ud558\uace0 \ud398\ub2ec\uc744 \uc774\uc5b4\uac00\uc694 11m 93%\n- Recovery 5^ \uc228 \uac00\ub77c\uc549\ud788\uace0, \ud30c\uc6cc \ub0ae\ucd94\uae30 3m 55%\n- Sweet Spot 3 5^ \ub2e4\uc2dc \uc2dc\uc791, \uccab \uc2a4\ud2b8\ub85c\ud06c\ubd80\ud130 \ubd80\ub4dc\ub7fd\uac8c 120^ \ud5c8\ub9ac \uace7\uac8c, \uae4a\uac8c \uc228 \uc26c\uace0, \uc720\uc9c0\ud558\uae30 240^ \uc2dc\uc120\uc740 \uc55e\uc73c\ub85c, \ub9ac\ub4ec\uc740 \uc548\uc815\uc801\uc73c\ub85c 300^ \uae30\ucd08 \uccb4\ub825\uc774 \ud55c\uce35 \ub2e8\ub2e8\ud574\uc9c0\uace0 \uc788\uc5b4\uc694 360^ \uac15\ud558\uac8c, \uc774 \ub9ac\ub4ec \uc720\uc9c0\ud558\uae30 480^ \uc5ec\uae30\uc11c \ubcf4\ub0b4\ub294 \ub9e4 \ubd84\uc774 \uc800\ucd95\uc774\uc5d0\uc694 540^ \ucc28\ubd84\ud558\uac8c \ub9c8\ubb34\ub9ac\ud574\uc694, \ucda9\ubd84\ud788 \uc798\ud558\uace0 \uc788\uc5b4\uc694 10m 93%\n- Recovery 5^ \uc81c\ub300\ub85c \ud68c\ubcf5\ud558\uae30, \ub2e4\uc74c \uad6c\uac04\uc774 \uadf8\ub9cc\ud07c \uac00\uce58 \uc788\uc5b4\uc694 3m 55%\n- Sweet Spot 4 5^ \uac19\uc740 \ube14\ub85d, \uc774\ubc88\uc5d4 \ub354 \ub098\uc740 \ub9ac\ub4ec\uc73c\ub85c 120^ \uae38\uac8c \ub0b4\uc26c\uace0, \uc190\uc740 \ud3b8\ud558\uac8c 270^ \uc808\ubc18 \uc9c0\uc810: \ud6c4\ubc18\uc804\uc740 \ub2f9\uc2e0 \uac83\uc774\uc5d0\uc694 360^ \ud30c\uc6cc \uc720\uc9c0\ud558\uace0, \uc5b4\uae68\ub294 \ub0b4\ub9ac\uae30 480^ 60\ucd08, \ub05d\uae4c\uc9c0 \ubc00\uc5b4\ubd99\uc774\uc138\uc694 9m 94%\n- Recovery 5^ \uac00\ubccd\uac8c \ud398\ub2ec\ub9c1, \uae38\uac8c \ub0b4\uc26c\uae30 3m 55%\n- Sweet Spot 5 5^ \uac19\uc740 \ubaa9\ud45c, \ub9ac\ub4ec\uc744 \uc77c\ucc0d \ucc3e\uc73c\uc138\uc694 120^ \uc5ec\uae30\uc11c \uccb4\ub825\uc774 \ub9cc\ub4e4\uc5b4\uc838\uc694 240^ \ube14\ub85d \uc911\uac04, \ucc98\uc9c0\uc9c0 \uc54a\uae30 360^ \ubd80\ub4dc\ub7ec\uc6c0\uc774 \uace7 \ube60\ub984, \ubd80\ub4dc\ub7fd\uac8c \uc720\uc9c0 420^ \ub9c8\uc9c0\ub9c9 1\ubd84, \ub05d\uae4c\uc9c0 \uac15\ud558\uac8c 8m 94%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ud3b8\uc548\ud55c \ub9ac\ub4ec\uc73c\ub85c \ub2e4\ub9ac\ub97c \ud480\uc5b4\uc694 5m 70%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ubd80\ub4dc\ub7ec\uc6b4 \ud68c\uc804 \uac10\uac01\uc744 \ucc3e\uc544\uc694 5m 70%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 67%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 70%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 87%\n\nCooldown\n- \uc815\ub9d0 \uc798\ud588\uc5b4\uc694, \uac00\ubccd\uac8c \ud398\ub2ec\uc744 \ud480\uc5b4\uc8fc\uc138\uc694 10^ \uc9c0\uc18d \uac00\ub2a5\ud55c \ud798\uc744 \ud6c8\ub828\ud588\uc5b4\uc694 16^ \ubfcc\ub4ef\ud558\uac8c \ub9c8\ubb34\ub9ac\ud558\uace0 \ub2e4\uc74c\uc744 \uae30\ub300\ud574\uc694! 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:sweetSpot]"
+      "description": "Warmup\n- \uc548\ub155\ud558\uc138\uc694, youngoh cho! \ucc28\ubd84\ud55c \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694 15^ \uc624\ub298\uc740 \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825\uc744 \ucc28\uadfc\ucc28\uadfc \uc313\uc544\uc694 21^ \ub05d\ub098\uba74 \uc624\ub798 \ub2ec\ub9b4 \ud0c4\ud0c4\ud55c \uae30\ubc18\uc744 \uc5bb\uc5b4\uc694 15m ramp 45-75%\n\nMain Set\n- Steady 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \ud3b8\ud558\uac8c \ub2ec\ub824\uc57c \uc624\ub798 \uc774\uc5b4\uac08 \uc218 \uc788\uc5b4\uc694 5m 66%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 63%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 66%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ubd80\ub4dc\ub7ec\uc6b4 \ud398\ub2ec\ub9c1\uc73c\ub85c \ud798\uc744 \uc544\uaef4\uc694 5m 66%\n- High Cadence 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 63%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 66%\n- Surge 5^ \uc2a4\ud37c\uc9c0: \ub9ac\ub4ec\uc744 \ubc97\uc5b4\ub098\uc11c, \ubc14\ub85c \ub2e4\uc2dc \ubcf5\uadc0 1m 75%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \uc5ec\uc720\ub85c\uc6b4 \ud68c\uc804\uc774 \ub9ac\ub4ec\uc744 \ub2e4\uc838\uc694 5m 69%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 66%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 69%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 78%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ud3b8\uc548\ud568 \uc18d\uc5d0\uc11c\ub3c4 \uafb8\uc900\ud568\uc744 \uc313\uc544\uc694 5m 69%\n- High Cadence 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 66%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 69%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 78%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 5m 72%\n- High Cadence 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 3m 69%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 72%\n- Surge 5^ \uc2a4\ud37c\uc9c0: \ub9ac\ub4ec\uc744 \ubc97\uc5b4\ub098\uc11c, \ubc14\ub85c \ub2e4\uc2dc \ubcf5\uadc0 1m 81%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 5m 72%\n- High Cadence 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 3m 69%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 72%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 81%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 360^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 480^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 11m 72%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 5m 72%\n- High Cadence 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 3m 69%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 3m 72%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 81%\n\nCooldown\n- \uba4b\uc9c4 \ub77c\uc774\ub529\uc774\uc5c8\uc5b4\uc694, \uc5ec\uc720\ub86d\uac8c \ub9c8\ubb34\ub9ac\ud574\uc694 10^ \uafb8\uc900\ud55c \uc9c0\uad6c\ub825\uacfc \ud398\ub2ec\ub9c1\uc744 \ub2e8\ub828\ud588\uc5b4\uc694 16^ \uc815\ub9d0 \uc798\ud588\uc5b4\uc694, \uc624\ub298\uc758 \uc131\uc7a5\uc744 \uc990\uaca8\uc694! 10m ramp 65-45%\n\n[Athlete requested \u00b7 type:endurance]"
+    },
+    {
+      "id": 148434730,
+      "date": "2026-10-27",
+      "name": "IntervalCoach - \uc57c\uc678 \uc7a5\uac70\ub9ac \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 234,
+      "duration_hours": 5.0,
+      "duration_formatted": "5h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": "Warmup\n- youngoh cho, \uae34 \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694! 5m 50%\n- 5m 60%\n- 5m 70%\n\nMain Set\n- Settle In 69m 65%\n- Build 69m 67%\n- Upper 69m 70-74%\n- Cruise 68m 70-74%\n\nCooldown\n- \uafb8\uc900\ud788 \uc798 \ud574\ub0c8\uc5b4\uc694, \uc218\uace0 \ub9ce\uc558\uc5b4\uc694! 200s 60%\n- 200s 55%\n- 200s 50%\n\n[Athlete requested \u00b7 type:endurance]"
     },
     {
       "id": 147742912,
@@ -6486,12 +6501,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 30,
+    "attempted": 31,
     "success": 7,
     "patternA": 0,
     "patternB": 7,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 23
+    "bail_no_match": 24
   },
   "weekly_summary": {
     "total_training_hours": 9.53,
