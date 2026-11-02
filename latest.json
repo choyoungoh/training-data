@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 11.17,
-      "total_training_formatted": "11h10m",
-      "total_activities": 6,
-      "total_tss": 621
+      "total_training_hours": 9.65,
+      "total_training_formatted": "9h38m",
+      "total_activities": 5,
+      "total_tss": 543
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-01T22:46:27.405051",
+    "last_updated": "2026-11-02T01:59:36.801374",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -105,13 +105,13 @@
       "hrv": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 58.4,
+        "baseline_7d": 57.6,
         "delta_pct": null
       },
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 52.2,
+        "baseline_7d": 52.3,
         "delta_bpm": null
       },
       "sleep": {
@@ -121,7 +121,7 @@
       },
       "acwr": {
         "status": "green",
-        "value": 1.06
+        "value": 0.93
       },
       "ri": {
         "status": "unavailable",
@@ -130,7 +130,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -3.9
+        "value": 7.3
       }
     },
     "signal_summary": {
@@ -153,15 +153,15 @@
   "history": {
     "available": true,
     "last_generated": "2026-09-07",
-    "age_days": 55,
+    "age_days": 56,
     "total_months": 35,
     "history_confidence": "high"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 11.17,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 9.65,
+    "total_activities": 5,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 6.6,
@@ -188,13 +188,13 @@
         }
       },
       "VirtualRide": {
-        "duration_decimal_hours": 4.58,
-        "count": 3,
-        "tss": 261,
-        "distance_km": 158.4,
+        "duration_decimal_hours": 3.05,
+        "count": 2,
+        "tss": 183,
+        "distance_km": 102.2,
         "display": {
           "distance": {
-            "value": 158.4,
+            "value": 102.2,
             "unit": "km"
           }
         }
@@ -203,17 +203,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 96.92,
-      "atl": 100.78,
-      "tsb": -3.86,
-      "ramp_rate": -0.14,
+      "ctl": 94.64,
+      "atl": 87.36,
+      "tsb": 7.28,
+      "ramp_rate": -1.97,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 258.7,
-      "w_prime": 20857,
-      "w_prime_kj": 20.9,
-      "p_max": 905,
+      "eftp": 258.4,
+      "w_prime": 20837,
+      "w_prime_kj": 20.8,
+      "p_max": 904,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -272,7 +272,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2388,
+      "steps": 56,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -286,61 +286,61 @@
   "derived_metrics": {
     "recovery_index": null,
     "recovery_index_yesterday": null,
-    "hrv_baseline_7d": 58.4,
-    "rhr_baseline_7d": 52.2,
+    "hrv_baseline_7d": 57.6,
+    "rhr_baseline_7d": 52.3,
     "hrv_baseline_28d": 59.4,
-    "rhr_baseline_28d": 47.8,
+    "rhr_baseline_28d": 47.6,
     "latest_hrv": null,
     "latest_rhr": null,
-    "acwr": 1.06,
+    "acwr": 0.93,
     "acwr_interpretation": "optimal",
-    "monotony": 0.69,
+    "monotony": 0.59,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.69,
-    "primary_sport_tss_7d": 621.0,
-    "effective_monotony": 0.69,
+    "primary_sport_monotony": 0.59,
+    "primary_sport_tss_7d": 543.0,
+    "effective_monotony": 0.59,
     "multi_sport_detected": false,
-    "strain": 428.0,
-    "stress_tolerance": 6.2,
+    "strain": 320.0,
+    "stress_tolerance": 5.4,
     "load_recovery_ratio": null,
-    "tss_7d_total": 621.0,
+    "tss_7d_total": 543.0,
     "tss_28d_total": 2344.0,
     "zone_distribution_7d": {
-      "z1_hours": 3.56,
-      "z2_hours": 3.92,
-      "z3_hours": 1.67,
-      "z4_plus_hours": 2.03,
-      "total_hours": 11.18,
+      "z1_hours": 3.55,
+      "z2_hours": 2.77,
+      "z3_hours": 1.32,
+      "z4_plus_hours": 2.01,
+      "total_hours": 9.65,
       "zone_basis": "power"
     },
-    "grey_zone_percentage": 14.9,
+    "grey_zone_percentage": 13.7,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 18.1,
+    "quality_intensity_percentage": 20.9,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.67,
+    "easy_time_ratio": 0.65,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 2,
+    "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 26933,
-      "z2_seconds": 5997,
-      "z3_seconds": 7301,
-      "z1_pct": 66.9,
-      "z2_pct": 14.9,
-      "z3_pct": 18.1,
-      "polarization_index": 1.91,
+      "z1_seconds": 22729,
+      "z2_seconds": 4765,
+      "z3_seconds": 7246,
+      "z1_pct": 65.4,
+      "z2_pct": 13.7,
+      "z3_pct": 20.9,
+      "polarization_index": 2.0,
       "classification": "Pyramidal",
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 26933,
-      "z2_seconds": 5997,
-      "z3_seconds": 7301,
-      "z1_pct": 66.9,
-      "z2_pct": 14.9,
-      "z3_pct": 18.1,
-      "polarization_index": 1.91,
+      "z1_seconds": 22729,
+      "z2_seconds": 4765,
+      "z3_seconds": 7246,
+      "z1_pct": 65.4,
+      "z2_pct": 13.7,
+      "z3_pct": 20.9,
+      "polarization_index": 2.0,
       "classification": "Pyramidal",
       "zone_basis": "power",
       "sport": "cycling"
@@ -370,23 +370,23 @@
     },
     "capability": {
       "durability": {
-        "mean_decoupling_7d": -0.78,
+        "mean_decoupling_7d": null,
         "mean_decoupling_28d": -0.39,
         "high_drift_count_7d": 0,
         "high_drift_count_28d": 0,
-        "qualifying_sessions_7d": 2,
+        "qualifying_sessions_7d": 1,
         "qualifying_sessions_28d": 5,
-        "trend": "stable",
+        "trend": null,
         "reliability_limited": true,
-        "reliability_note": "insufficient qualifying sessions for alert evaluation: 7d N=2 (min 3), 28d N=5 (min 5)",
+        "reliability_note": "insufficient qualifying sessions for alert evaluation: 7d N=1 (min 3), 28d N=5 (min 5)",
         "note": "Steady-state power sessions only (VI <= 1.05, VI > 0, >= 90min, power data). Negative decoupling = strong durability. Trend compares 7d vs 28d mean (+/-1% = stable). Alerts require N28>=5 (alarm) or N7>=3 AND N28>=5 (declining warning) for statistical reliability."
       },
       "efficiency_factor": {
-        "mean_ef_7d": 1.28,
+        "mean_ef_7d": null,
         "mean_ef_28d": 1.28,
-        "qualifying_sessions_7d": 2,
+        "qualifying_sessions_7d": 1,
         "qualifying_sessions_28d": 7,
-        "trend": "stable",
+        "trend": null,
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
@@ -400,7 +400,7 @@
       "tid_comparison": {
         "classification_7d": "Pyramidal",
         "classification_28d": "Pyramidal",
-        "pi_7d": 1.91,
+        "pi_7d": 2.0,
         "pi_28d": null,
         "pi_delta": null,
         "drift": "consistent",
@@ -409,12 +409,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-05",
-          "end": "2026-11-01"
+          "start": "2026-10-06",
+          "end": "2026-11-02"
         },
         "previous_window": {
-          "start": "2026-09-07",
-          "end": "2026-10-04"
+          "start": "2026-09-08",
+          "end": "2026-10-05"
         },
         "anchors": {
           "5s": {
@@ -449,12 +449,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-10-05",
-          "end": "2026-11-01"
+          "start": "2026-10-06",
+          "end": "2026-11-02"
         },
         "previous_window": {
-          "start": "2026-09-07",
-          "end": "2026-10-04"
+          "start": "2026-09-08",
+          "end": "2026-10-05"
         },
         "anchors": {
           "60s": {
@@ -484,8 +484,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-09-21",
-          "end": "2026-11-01"
+          "start": "2026-09-22",
+          "end": "2026-11-02"
         },
         "weight_kg": 65.8,
         "weight_source": "wellness_extended",
@@ -499,9 +499,9 @@
               "source": "observed_outdoor",
               "coggan_watts": 276,
               "coggan_wpkg": 4.19,
-              "cp_model_watts": 330,
-              "cp_model_wpkg": 5.02,
-              "model_divergence_pct": -11.5
+              "cp_model_watts": 329,
+              "cp_model_wpkg": 5.0,
+              "model_divergence_pct": -11.2
             },
             "600s": {
               "actual_watts": 273,
@@ -578,20 +578,19 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 260,
-          "w_prime_used": 20857,
-          "ftp_staleness_days": 150,
+          "w_prime_used": 20837,
+          "ftp_staleness_days": 151,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.67,
+    "consistency_index": 0.6,
     "consistency_details": {
-      "planned_days": 6,
-      "completed_days": 4,
-      "matched_days": 4,
+      "planned_days": 5,
+      "completed_days": 3,
+      "matched_days": 3,
       "planned_dates": [
-        "2026-10-26",
         "2026-10-28",
         "2026-10-29",
         "2026-10-30",
@@ -599,7 +598,6 @@
         "2026-11-01"
       ],
       "completed_dates": [
-        "2026-10-26",
         "2026-10-28",
         "2026-10-29",
         "2026-11-01"
@@ -613,18 +611,18 @@
         "stream_1": {
           "ctl_slope": null,
           "acwr_trend": null,
-          "hard_day_pattern": 3,
+          "hard_day_pattern": 2,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.92,
-          "hard_sessions_planned": 1,
-          "current_week_hard_days_completed": 2,
-          "current_week_hard_days_total": 3,
+          "planned_tss_delta": 0.77,
+          "hard_sessions_planned": 5,
+          "current_week_hard_days_completed": 0,
+          "current_week_hard_days_total": 5,
           "race_proximity": null,
-          "next_week_load": 0.7,
-          "plan_coverage_current_week": 0.14,
-          "plan_coverage_next_week": 0.71
+          "next_week_load": 1.08,
+          "plan_coverage_current_week": 0.62,
+          "plan_coverage_next_week": 0.62
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -651,19 +649,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 258.7,
-    "w_prime": 20857,
-    "w_prime_kj": 20.9,
-    "p_max": 905,
+    "eftp": 258.4,
+    "w_prime": 20837,
+    "w_prime_kj": 20.8,
+    "p_max": 904,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-01T22:46:27.404396",
+    "calculation_timestamp": "2026-11-02T01:59:36.800166",
     "data_quality": {
-      "hrv_data_points": 4,
-      "rhr_data_points": 4,
-      "activities_7d": 6,
+      "hrv_data_points": 3,
+      "rhr_data_points": 3,
+      "activities_7d": 5,
       "activities_28d": 28,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2150,7 +2148,7 @@
           "z7_time": 0
         }
       },
-      "has_intervals": true,
+      "has_intervals": false,
       "has_dfa": false,
       "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 3/10\nTSS: 138\n\ud6c8\ub828 \uc790\uadf9: tempo\n\uc608\uc0c1 \ud68c\ubcf5: 23h\n\n\ud83d\udd17 interval.coach/r/AZWWHV"
     },
@@ -4173,48 +4171,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-10-26",
-      "weight_kg": null,
-      "display": {
-        "weight": null
-      },
-      "resting_hr": 52,
-      "hrv_rmssd": 61.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 7.32,
-      "sleep_formatted": "7h19m",
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": 95.7,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": 16.6,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 18090,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-10-27",
       "weight_kg": null,
       "display": {
@@ -4456,7 +4412,49 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2388,
+      "steps": 2679,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
+    },
+    {
+      "date": "2026-11-02",
+      "weight_kg": null,
+      "display": {
+        "weight": null
+      },
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": 56,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4468,21 +4466,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 147743516,
-      "date": "2026-11-01",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \ucf00\uc774\ub358\uc2a4 \ub77c\uc774\ub529",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 239,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "indoor": true,
-      "description": "Warmup\n- \uc601\uc624\ub2d8, \uc9c0\uad6c\ub825\uacfc \ucf00\uc774\ub358\uc2a4 \ub77c\uc774\ub529\uc744 \uc2dc\uc791\ud574\uc694! 15^ \uc624\ub298\uc740 \uae30\ucd08 \uccb4\ub825\uc744 \ucc28\uadfc\ucc28\uadfc \uc313\uc544\uc694 21^ \ud3b8\uc548\ud55c \ud398\ub2ec\ub9c1\uc774 \uc624\ub798\uac00\ub294 \ud798\uc744 \uae38\ub7ec\uc918\uc694 15m ramp 45-75%\n\nMain Set\n- High Cadence 1 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \uac00\ubccd\uac8c \ub3cc\ub9ac\uba70 \ud798\uc744 \uc544\uaef4\uc694 240^ \ud3b8\uc548\ud55c \ub9ac\ub4ec\uc774 \uc624\ub798\uac00\ub294 \uae30\ubc18\uc744 \ub9cc\ub4e4\uc5b4\uc694 6m 70%\n- Low Cadence 1 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \uac00\ubccd\uac8c \ub3cc\ub9ac\uba70 \ud798\uc744 \uc544\uaef4\uc694 240^ \ud3b8\uc548\ud55c \ub9ac\ub4ec\uc774 \uc624\ub798\uac00\ub294 \uae30\ubc18\uc744 \ub9cc\ub4e4\uc5b4\uc694 6m 70%\n- High Cadence 2 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ucf00\uc774\ub358\uc2a4\ub97c \ubd80\ub4dc\ub7fd\uac8c \ubc14\uafd4\ubd10\uc694 240^ \uc5ec\uc720 \uc788\ub294 \ud398\ub2ec\ub9c1\ub3c4 \ud6c8\ub828\uc774\uc5d0\uc694 6m 70%\n- Low Cadence 2 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ucf00\uc774\ub358\uc2a4\ub97c \ubd80\ub4dc\ub7fd\uac8c \ubc14\uafd4\ubd10\uc694 240^ \uc5ec\uc720 \uc788\ub294 \ud398\ub2ec\ub9c1\ub3c4 \ud6c8\ub828\uc774\uc5d0\uc694 6m 70%\n- High Cadence 3 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 3 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 4 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 4 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 5 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 5 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 6 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 6 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 7 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 7 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 8 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 8 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 9 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 9 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 10 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 10 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 11 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 11 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 12 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 12 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 13 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 13 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 14 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 14 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 15 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 15 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 16 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 16 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 17 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 17 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 18 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 18 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 19 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 19 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 20 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 20 5^ \ub0ae\uc740 \ucf00\uc774\ub358\uc2a4: \uc549\uc740 \ucc44\ub85c, \ud799\uc5d0\uc11c \ud798\uc744 \ub04c\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 21 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 6m 70%\n- Low Cadence 21 5^ \ud070 \uae30\uc5b4, \ubd80\ub4dc\ub7ec\uc6b4 \uc6d0, \ud754\ub4e4\ub9ac\uc9c0 \uc54a\uac8c 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 6m 70%\n- High Cadence 22 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 6m 70%\n- Low Cadence 22 5^ \ud1a0\ud06c \ud0c0\uc784: \uc2a4\ud2b8\ub85c\ud06c \uc804\uccb4\ub97c \ubc00\uc5b4\ub0b4\uae30 120^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 240^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 6m 70%\n- High Cadence 23 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 360^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 480^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 11m 70%\n\nCooldown\n- \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1, \uc815\ub9d0 \ud6cc\ub96d\ud588\uc5b4\uc694! 10^ \uc9c0\uad6c\ub825\uacfc \ub9e4\ub044\ub7ec\uc6b4 \ucf00\uc774\ub358\uc2a4\ub97c \ud6c8\ub828\ud588\uc5b4\uc694 16^ \uc624\ub298\uc758 \uc131\uc7a5\uc744 \uae30\uc058\uac8c \ub204\ub824\uc694! 10m ramp 65-45%\n\n\n[Weekly Plan - Base \u00b7 type:enduranceCadence]"
-    },
     {
       "id": 147743634,
       "date": "2026-11-03",
@@ -4928,20 +4911,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 31,
+    "attempted": 30,
     "success": 9,
     "patternA": 0,
     "patternB": 9,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 22
+    "bail_no_match": 21
   },
   "weekly_summary": {
-    "total_training_hours": 11.17,
-    "total_training_formatted": "11h10m",
-    "total_tss": 621,
-    "activities_count": 6,
-    "avg_hrv": 58.4,
-    "avg_resting_hr": 52.2
+    "total_training_hours": 9.65,
+    "total_training_formatted": "9h38m",
+    "total_tss": 543,
+    "activities_count": 5,
+    "avg_hrv": 57.6,
+    "avg_resting_hr": 52.3
   },
   "race_calendar": {
     "next_race": null,
