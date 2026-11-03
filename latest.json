@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 9.65,
-      "total_training_formatted": "9h38m",
-      "total_activities": 6,
-      "total_tss": 543
+      "total_training_hours": 10.27,
+      "total_training_formatted": "10h16m",
+      "total_activities": 7,
+      "total_tss": 573
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-03T01:42:48.045128",
+    "last_updated": "2026-11-03T08:34:48.081958",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -103,41 +103,41 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 53.9,
-        "delta_pct": null
+        "status": "green",
+        "value": 56.6,
+        "baseline_7d": 54.6,
+        "delta_pct": 3.8
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 52.7,
-        "delta_bpm": null
+        "status": "green",
+        "value": 54,
+        "baseline_7d": 53,
+        "delta_bpm": 1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "amber",
+        "hours": 6.73,
         "quality": null
       },
       "acwr": {
         "status": "green",
-        "value": 0.98
+        "value": 1.02
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 0.73
+        "status": "green",
+        "value": 1.02,
+        "value_yesterday": 0.72
       },
       "tsb": {
         "status": "green",
-        "value": 15.1
+        "value": 1.7
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 0,
+      "green": 5,
+      "amber": 1,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -147,7 +147,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -160,8 +160,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 9.65,
-    "total_activities": 6,
+    "total_duration_decimal_hours": 10.27,
+    "total_activities": 7,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 6.6,
@@ -188,13 +188,13 @@
         }
       },
       "VirtualRide": {
-        "duration_decimal_hours": 3.05,
-        "count": 2,
-        "tss": 183,
-        "distance_km": 102.2,
+        "duration_decimal_hours": 3.67,
+        "count": 3,
+        "tss": 213,
+        "distance_km": 123.8,
         "display": {
           "distance": {
-            "value": 102.2,
+            "value": 123.8,
             "unit": "km"
           }
         }
@@ -203,17 +203,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 92.81,
-      "atl": 77.7,
-      "tsb": 15.11,
-      "ramp_rate": -1.53,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 95.68,
+      "atl": 93.94,
+      "tsb": 1.74,
+      "ramp_rate": 1.34,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 258.1,
-      "w_prime": 20816,
+      "eftp": 258.4,
+      "w_prime": 20837,
       "w_prime_kj": 20.8,
-      "p_max": 903,
+      "p_max": 904,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -251,10 +251,10 @@
         }
       },
       "resting_hr": 54,
-      "hrv": null,
+      "hrv": 56.65,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.73,
+      "sleep_formatted": "6h44m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -263,16 +263,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 95.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 16.8,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7,
+      "steps": 1116,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -284,85 +284,85 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 0.73,
-    "hrv_baseline_7d": 53.9,
-    "rhr_baseline_7d": 52.7,
-    "hrv_baseline_28d": 58.1,
-    "rhr_baseline_28d": 47.8,
-    "latest_hrv": null,
-    "latest_rhr": null,
-    "acwr": 0.98,
+    "recovery_index": 1.02,
+    "recovery_index_yesterday": 0.72,
+    "hrv_baseline_7d": 54.6,
+    "rhr_baseline_7d": 53,
+    "hrv_baseline_28d": 58.0,
+    "rhr_baseline_28d": 48.0,
+    "latest_hrv": 56.65,
+    "latest_rhr": 54,
+    "acwr": 1.02,
     "acwr_interpretation": "optimal",
-    "monotony": 0.59,
+    "monotony": 0.63,
     "monotony_interpretation": "normal",
     "primary_sport": "cycling",
-    "primary_sport_monotony": 0.59,
-    "primary_sport_tss_7d": 543.0,
-    "effective_monotony": 0.59,
+    "primary_sport_monotony": 0.63,
+    "primary_sport_tss_7d": 573.0,
+    "effective_monotony": 0.63,
     "multi_sport_detected": false,
-    "strain": 320.0,
-    "stress_tolerance": 5.4,
-    "load_recovery_ratio": null,
-    "tss_7d_total": 543.0,
-    "tss_28d_total": 2221.0,
+    "strain": 361.0,
+    "stress_tolerance": 5.7,
+    "load_recovery_ratio": 5.6,
+    "tss_7d_total": 573.0,
+    "tss_28d_total": 2251.0,
     "zone_distribution_7d": {
-      "z1_hours": 3.55,
-      "z2_hours": 2.77,
-      "z3_hours": 1.32,
-      "z4_plus_hours": 2.01,
-      "total_hours": 9.65,
+      "z1_hours": 3.6,
+      "z2_hours": 3.27,
+      "z3_hours": 1.39,
+      "z4_plus_hours": 2.02,
+      "total_hours": 10.27,
       "zone_basis": "power"
     },
-    "grey_zone_percentage": 13.7,
+    "grey_zone_percentage": 13.6,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 20.9,
+    "quality_intensity_percentage": 19.6,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "easy_time_ratio": 0.65,
+    "easy_time_ratio": 0.67,
     "easy_time_ratio_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 22729,
-      "z2_seconds": 4765,
-      "z3_seconds": 7246,
-      "z1_pct": 65.4,
-      "z2_pct": 13.7,
-      "z3_pct": 20.9,
-      "polarization_index": 2.0,
+      "z1_seconds": 24702,
+      "z2_seconds": 5011,
+      "z3_seconds": 7262,
+      "z1_pct": 66.8,
+      "z2_pct": 13.6,
+      "z3_pct": 19.6,
+      "polarization_index": 1.99,
       "classification": "Pyramidal",
       "zone_basis": "power"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 22729,
-      "z2_seconds": 4765,
-      "z3_seconds": 7246,
-      "z1_pct": 65.4,
-      "z2_pct": 13.7,
-      "z3_pct": 20.9,
-      "polarization_index": 2.0,
+      "z1_seconds": 24702,
+      "z2_seconds": 5011,
+      "z3_seconds": 7262,
+      "z1_pct": 66.8,
+      "z2_pct": 13.6,
+      "z3_pct": 19.6,
+      "polarization_index": 1.99,
       "classification": "Pyramidal",
       "zone_basis": "power",
       "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 96871,
-      "z2_seconds": 33320,
-      "z3_seconds": 19861,
-      "z1_pct": 64.6,
-      "z2_pct": 22.2,
-      "z3_pct": 13.2,
+      "z1_seconds": 98844,
+      "z2_seconds": 33566,
+      "z3_seconds": 19877,
+      "z1_pct": 64.9,
+      "z2_pct": 22.0,
+      "z3_pct": 13.1,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 94061,
-      "z2_seconds": 33320,
-      "z3_seconds": 19861,
-      "z1_pct": 63.9,
-      "z2_pct": 22.6,
-      "z3_pct": 13.5,
+      "z1_seconds": 96034,
+      "z2_seconds": 33566,
+      "z3_seconds": 19877,
+      "z1_pct": 64.2,
+      "z2_pct": 22.5,
+      "z3_pct": 13.3,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "power",
@@ -382,11 +382,11 @@
         "note": "Steady-state power sessions only (VI <= 1.05, VI > 0, >= 90min, power data). Negative decoupling = strong durability. Trend compares 7d vs 28d mean (+/-1% = stable). Alerts require N28>=5 (alarm) or N7>=3 AND N28>=5 (declining warning) for statistical reliability."
       },
       "efficiency_factor": {
-        "mean_ef_7d": null,
+        "mean_ef_7d": 1.25,
         "mean_ef_28d": 1.28,
-        "qualifying_sessions_7d": 1,
-        "qualifying_sessions_28d": 7,
-        "trend": null,
+        "qualifying_sessions_7d": 2,
+        "qualifying_sessions_28d": 8,
+        "trend": "declining",
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
@@ -400,7 +400,7 @@
       "tid_comparison": {
         "classification_7d": "Pyramidal",
         "classification_28d": "Pyramidal",
-        "pi_7d": 2.0,
+        "pi_7d": 1.99,
         "pi_28d": null,
         "pi_delta": null,
         "drift": "consistent",
@@ -578,18 +578,18 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 260,
-          "w_prime_used": 20816,
+          "w_prime_used": 20837,
           "ftp_staleness_days": 152,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.5,
+    "consistency_index": 0.67,
     "consistency_details": {
       "planned_days": 6,
-      "completed_days": 3,
-      "matched_days": 3,
+      "completed_days": 4,
+      "matched_days": 4,
       "planned_dates": [
         "2026-10-28",
         "2026-10-29",
@@ -601,7 +601,8 @@
       "completed_dates": [
         "2026-10-28",
         "2026-10-29",
-        "2026-11-01"
+        "2026-11-01",
+        "2026-11-03"
       ]
     },
     "phase_detection": {
@@ -616,13 +617,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.89,
-          "hard_sessions_planned": 5,
+          "planned_tss_delta": 1.06,
+          "hard_sessions_planned": 6,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 5,
+          "current_week_hard_days_total": 6,
           "race_proximity": null,
           "next_week_load": 1.08,
-          "plan_coverage_current_week": 0.62,
+          "plan_coverage_current_week": 0.75,
           "plan_coverage_next_week": 0.62
         },
         "data_quality": "good",
@@ -650,19 +651,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 258.1,
-    "w_prime": 20816,
+    "eftp": 258.4,
+    "w_prime": 20837,
     "w_prime_kj": 20.8,
-    "p_max": 903,
+    "p_max": 904,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-03T01:42:48.044266",
+    "calculation_timestamp": "2026-11-03T08:34:48.080745",
     "data_quality": {
-      "hrv_data_points": 3,
-      "rhr_data_points": 3,
-      "activities_7d": 6,
-      "activities_28d": 28,
-      "planned_workouts_7d": 6,
+      "hrv_data_points": 4,
+      "rhr_data_points": 4,
+      "activities_7d": 7,
+      "activities_28d": 29,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -670,6 +671,85 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i205083207",
+      "date": "2026-11-03T07:02:46",
+      "type": "VirtualRide",
+      "name": "IntervalCoach - \uae30\ucd08 \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
+      "duration_hours": 0.62,
+      "distance_km": 21.58,
+      "tss": 30,
+      "intensity_factor": 69.2,
+      "avg_power": 170,
+      "normalized_power": 173,
+      "avg_hr": 137,
+      "max_hr": 148,
+      "avg_cadence": 89.883224,
+      "avg_speed": 34.7,
+      "avg_speed_unit": "KPH",
+      "max_speed": 50.9,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": 379.8,
+      "calories": 362,
+      "carbs_used": 98,
+      "carbs_ingested": null,
+      "variability_index": 1.017647,
+      "decoupling": -4.8716445,
+      "efficiency_factor": 1.2627738,
+      "hrrc": null,
+      "elevation_m": 124.0,
+      "display": {
+        "distance": {
+          "value": 21.58,
+          "unit": "km"
+        },
+        "elevation": {
+          "value": 124,
+          "unit": "m"
+        },
+        "avg_speed": {
+          "value": 34.7,
+          "unit": "km/h"
+        },
+        "max_speed": {
+          "value": 50.9,
+          "unit": "km/h"
+        }
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 804,
+          "z2_time": 1431,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 181,
+          "z2_time": 1792,
+          "z3_time": 246,
+          "z4_time": 13,
+          "z5_time": 3,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      },
+      "has_intervals": true,
+      "has_dfa": false,
+      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 7/10\nTSS: 30\n\ud6c8\ub828 \uc790\uadf9: endurance\n\uc608\uc0c1 \ud68c\ubcf5: 13h\n\n\ud83d\udd17 interval.coach/r/AZWWHV"
+    },
     {
       "id": "20831259549",
       "date": "2026-11-02T16:22:20",
@@ -4071,11 +4151,11 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 54,
+      "hrv_rmssd": 56.65,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.73,
+      "sleep_formatted": "6h44m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -4088,16 +4168,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 95.0,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 16.8,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7,
+      "steps": 1116,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4110,19 +4190,34 @@
   ],
   "planned_workouts": [
     {
-      "id": 147743634,
+      "id": 151389894,
       "date": "2026-11-03",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \uc2a4\ud540\uc5c5",
+      "name": "IntervalCoach - \uae30\ucd08 \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 62,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
-      "workout_summary": "12m @150W | 9m @175W | 5\u00d71m @187W / 9m rec | 8m @137W",
+      "planned_tss": 46,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
       "indoor": true,
-      "description": "Warmup\n- Youngoh, \uc9c0\uad6c\ub825\uacfc \uc2a4\ud540\uc5c5\uc744 \ud568\uaed8\ud574\uc694! 15^ \uc624\ub298\uc740 \ud68c\ubcf5\uae30\uc5d0 \ub9de\ucdb0 \ud3b8\uc548\ud788 \ub2ec\ub824\uc694 21^ \uc9c0\uad6c\ub825\uacfc \ud398\ub2ec \uac10\uac01\uc744 \ud568\uaed8 \ud0a4\uc6cc\uc694 12m ramp 45-75%\n\nMain Set\n- Endurance 1 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \uac00\ubccd\uac8c \ub3cc\ub824 \ub2e4\uc74c \uc2a4\ud540\uc5c5\uc744 \uc900\ube44\ud574\uc694 240^ \ud3b8\uc548\ud55c \ud68c\uc804\uc774 \ub2e4\ub9ac \uac10\uac01\uc744 \uae68\uc6cc\uc694 360^ \ud798\uc744 \uc544\ub07c\uba70 \ud638\ud761\uc744 \uace0\ub974\uac8c \ud574\uc694 9m 70%\n- Spin-Up 1 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 1m 75%\n- Endurance 2 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ubd80\ub4dc\ub7ec\uc6b4 \ud398\ub2ec\ub9c1\uc73c\ub85c \ud68c\ubcf5\uc744 \ub3c4\uc640\uc694 240^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 360^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 9m 70%\n- Spin-Up 2 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 1m 75%\n- Endurance 3 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 240^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 360^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 9m 70%\n- Spin-Up 3 5^ \ube60\ub974\uac8c \ub3cc\ub9ac\uace0, \uc548\uc7a5 \uc704\uc5d0\uc11c \ud3b8\uc548\ud558\uac8c 1m 75%\n- Endurance 4 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 240^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 360^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 9m 70%\n- Spin-Up 4 5^ \ube60\ub978 \ubc1c\ub180\ub9bc, \uc870\uc6a9\ud55c \uc0c1\uccb4 1m 75%\n- Endurance 5 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 240^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 360^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 9m 70%\n- Spin-Up 5 5^ \ub192\uc740 \ucf00\uc774\ub358\uc2a4: \uac00\ubccd\uac8c, \ud280\uc9c0 \uc54a\uac8c 1m 75%\n- Endurance 6 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 240^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 360^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 480^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 10m 70%\n\nCooldown\n- \uba4b\uc9c4 \ub77c\uc774\ub529\uc774\uc5c8\uc5b4\uc694, \ud3b8\uc548\ud788 \ub9c8\ubb34\ub9ac\ud574\uc694! 10^ \uc9c0\uad6c\ub825\uacfc \ubd80\ub4dc\ub7ec\uc6b4 \ud68c\uc804\uc744 \ub2e8\ub828\ud588\uc5b4\uc694 16^ \uae30\ubd84 \uc88b\uac8c \ub9c8\ubb34\ub9ac\ud574\uc694! 8m ramp 65-45%\n\n\n[Weekly Plan - Recovery \u00b7 type:enduranceSpinUps]"
+      "description": "Warmup\n- \uc548\ub155\ud558\uc138\uc694, youngoh cho! \uc624\ub298\uc740 \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc774\uc5d0\uc694 15^ \uc624\ub298 \uafb8\uc900\ud55c \ub77c\uc774\ub529\uc73c\ub85c \uae30\ucd08\ub97c \ub2e4\uc838\uc694 21^ \ub05d\ub098\uba74 \uc9c0\uad6c\ub825\uc774 \ub354 \ud0c4\ud0c4\ud574\uc9c8 \uac70\uc608\uc694 9m ramp 45-75%\n\nMain Set\n- Settle In 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \ud3b8\ud558\uac8c \ub2ec\ub824 \ub2e4\uc74c \ub178\ub825\uc744 \uc900\ube44\ud574\uc694 240^ \ubd80\ub4dc\ub7ec\uc6b4 \ud398\ub2ec\ub9c1\uc774 \uc9c0\uad6c\ub825\uc744 \ud0a4\uc6cc\uc694 360^ \ud798\uc744 \ud480\uace0 \uc790\uc5f0\uc2a4\ub7ec\uc6b4 \ub9ac\ub4ec\uc744 \ucc3e\uc544\uc694 480^ \ucc28\ubd84\ud55c \ud68c\ubcf5\ub3c4 \uafb8\uc900\ud568\uc758 \uc77c\ubd80\uc608\uc694 11m 66%\n- Build 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 240^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 360^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 480^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 11m 69%\n- Cruise 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 240^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 360^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 480^ \ud3b8\ud558\uac8c \ud0c0\ub294 \uac83\ub3c4 \uae30\uc220\uc774\uc5d0\uc694, \uc798 \ud574\ub0b4\uae30 600^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 720^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 840^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 960^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 1080^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 1200^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 23m 72%\n\nCooldown\n- \uc815\ub9d0 \uc798\ud588\uc5b4\uc694, \ud3b8\uc548\ud558\uac8c \ub9c8\ubb34\ub9ac\ud574\uc694 10^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc73c\ub85c \uc9c0\uad6c\ub825\uc744 \ud0a4\uc6e0\uc5b4\uc694 16^ \uc624\ub298\uc758 \uc131\uc7a5\uc744 \uae30\ubd84 \uc88b\uac8c \uc774\uc5b4\uac00\uc694! 6m ramp 65-45%"
+    },
+    {
+      "id": 151390074,
+      "date": "2026-11-03",
+      "name": "IntervalCoach - \uc2a4\ud37c\ud2b8 \uc9c0\uad6c\ub825",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 92,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "indoor": true,
+      "description": "Warmup\n- \uc548\ub155\ud558\uc138\uc694, youngoh cho! \ucc28\ubd84\ud55c \uc9c0\uad6c\ub825 \ub77c\uc774\ub529\uc774 \uae30\ub2e4\ub824\uc694 15^ \uc624\ub298\uc740 \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825\uc73c\ub85c \uae30\ubc18\uc744 \ub2e4\uc838\uc694 21^ \uafb8\uc900\ud55c \ud398\ub2ec\ub9c1\uc774 \uc624\ub798\uac00\ub294 \ud798\uc744 \uae38\ub7ec\uc918\uc694 15m ramp 45-75%\n\nMain Set\n- Steady 5^ \uae30\ucd08 \uc9c0\uad6c\ub825: \ud558\ub8e8 \uc885\uc77c \uc720\uc9c0\ud560 \uc218 \uc788\ub294 \ud398\uc774\uc2a4 120^ \uac00\ubccd\uac8c \ub3cc\ub824 \ud798\uc744 \uc544\uaef4\uc694 5m 66%\n- Ease Off 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 63%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 66%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \ud3b8\uc548\ud55c \ud398\uc774\uc2a4\uac00 \uae30\ubc18\uc744 \ub2e4\uc838\uc694 5m 66%\n- Ease Off 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 63%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 66%\n- Surge 5^ \uc2a4\ud37c\uc9c0: \ub9ac\ub4ec\uc744 \ubc97\uc5b4\ub098\uc11c, \ubc14\ub85c \ub2e4\uc2dc \ubcf5\uadc0 1m 75%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ubd80\ub4dc\ub7ec\uc6b4 \ud68c\uc804\uc73c\ub85c \uae34\uc7a5\uc744 \ud480\uc5b4\uc694 5m 69%\n- Ease Off 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 3m 66%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 69%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 78%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \uc5ec\uc720\ub85c\uc6b4 \ub9ac\ub4ec\uc73c\ub85c \ub2e4\uc2dc \uc815\ub3c8\ud574\uc694 5m 69%\n- Ease Off 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 66%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 3m 69%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 78%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 120^ \ub465\uadfc \ud398\ub2ec\ub9c1, \ud3b8\uc548\ud55c \uadf8\ub9bd 5m 72%\n- Ease Off 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 69%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 3m 72%\n- Surge 5^ \uc2a4\ud37c\uc9c0: \ub9ac\ub4ec\uc744 \ubc97\uc5b4\ub098\uc11c, \ubc14\ub85c \ub2e4\uc2dc \ubcf5\uadc0 1m 81%\n- Steady 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 120^ \uc774\uac8c \ud798\ub4e0 \ub0a0\uc744 \uc704\ud55c \uc5d4\uc9c4\uc744 \ub9cc\ub4e4\uc5b4\uc694 5m 72%\n- Ease Off 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 69%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 3m 72%\n- Surge 5^ \uc9e7\uc740 \uc2a4\ud37c\ud2b8: \ub04c\uc5b4\uc62c\ub9ac\uace0, \ub2e4\uc2dc \uac00\ub77c\uc549\ud788\uae30 1m 81%\n- Steady 5^ \ub2e4\uc2dc \uc790\ub9ac \uc7a1\uae30, \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694 120^ \ub300\ud654 \uac00\ub2a5\ud55c \ud398\uc774\uc2a4, \uadf8\ub300\ub85c \uc720\uc9c0 5m 72%\n- Ease Off 5^ \ub2e4\uc2dc \uc548\uc815\uc801\uc73c\ub85c, \ud3b8\uc548\ud558\uac8c \ud638\ud761\ud558\uc138\uc694 3m 69%\n- Steady 5^ \ud398\ub2ec\ub9c1\uc744 \ub465\uae00\uace0 \ud3b8\uc548\ud558\uac8c \uc720\uc9c0\ud558\uc138\uc694 3m 72%\n- Surge 5^ \ub04c\uc5b4\uc62c\ub824\uc11c, 1\ubd84\uac04 \uac15\ud558\uac8c 1m 81%\n- Steady 5^ \ub2e4\uc2dc \ud3b8\ud558\uac8c, \uc5ec\uae30\uc11c \uae30\ucd08\uac00 \uc790\ub77c\uc694 120^ \ucad3\uc744 \uac83 \uc5c6\uc5b4\uc694, \uadf8\ub0e5 \ub9ac\ub4ec\ub9cc 240^ \uc5d0\uc5b4\ub85c\ube45 \ubca0\uc774\uc2a4, \ubd84 \ub2e8\uc704\ub85c 360^ \ud45c\uc815 \ud480\uace0, \uc190\ub3c4 \ud3b8\ud558\uac8c 480^ \uc548\uc7a5 \uc704 \uc2dc\uac04\uc774 \ubc14\ub85c \ubaa9\uc801\uc774\uc5d0\uc694 11m 72%\n\nCooldown\n- \uafb8\uc900\ud788 \uc798\ud574\ub0c8\uc5b4\uc694, \uc5ec\uc720\ub86d\uac8c \ub9c8\ubb34\ub9ac\ud574\uc694 10^ \uc624\ub298 \uc720\uc0b0\uc18c \uc9c0\uad6c\ub825\uc744 \ucc28\uadfc\ucc28\uadfc \uc313\uc558\uc5b4\uc694 16^ \uba4b\uc9c4 \ub77c\uc774\ub529\uc774\uc5c8\uc5b4\uc694, \uacc4\uc18d \uc774\uc5b4\uac00\uc694! 10m ramp 65-45%"
     },
     {
       "id": 147743722,
@@ -4569,20 +4664,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 31,
-    "success": 9,
+    "attempted": 32,
+    "success": 8,
     "patternA": 0,
-    "patternB": 9,
+    "patternB": 8,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 22
+    "bail_no_match": 24
   },
   "weekly_summary": {
-    "total_training_hours": 9.65,
-    "total_training_formatted": "9h38m",
-    "total_tss": 543,
-    "activities_count": 6,
-    "avg_hrv": 53.9,
-    "avg_resting_hr": 52.7
+    "total_training_hours": 10.27,
+    "total_training_formatted": "10h16m",
+    "total_tss": 573,
+    "activities_count": 7,
+    "avg_hrv": 54.6,
+    "avg_resting_hr": 53.0
   },
   "race_calendar": {
     "next_race": null,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T01:42:48.041244",
+  "generated_at": "2026-11-03T08:34:47.759691",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -3106,6 +3106,71 @@
           "zone": 1,
           "training_load": 6.483519,
           "decoupling": -12.09966
+        }
+      ]
+    },
+    {
+      "activity_id": "i205083207",
+      "date": "2026-11-03",
+      "type": "VirtualRide",
+      "name": "IntervalCoach - \uae30\ucd08 \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
+      "interval_summary": [
+        "1x 9m2s 154w",
+        "2x 11m 175w",
+        "1x 6m14s 171w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "542s@154w84rpm",
+          "duration_secs": 542,
+          "avg_power": 154,
+          "max_power": 287,
+          "avg_hr": 129,
+          "max_hr": 146,
+          "avg_cadence": 84.28044,
+          "zone": 2,
+          "training_load": 6.0135503,
+          "decoupling": -12.651479
+        },
+        {
+          "type": "WORK",
+          "label": "660s@175w92rpm",
+          "duration_secs": 660,
+          "avg_power": 171,
+          "max_power": 305,
+          "avg_hr": 137,
+          "max_hr": 147,
+          "avg_cadence": 92.931816,
+          "zone": 2,
+          "training_load": 8.677974,
+          "decoupling": -1.2813573
+        },
+        {
+          "type": "WORK",
+          "label": "660s@175w92rpm",
+          "duration_secs": 660,
+          "avg_power": 179,
+          "max_power": 267,
+          "avg_hr": 141,
+          "max_hr": 148,
+          "avg_cadence": 90.48788,
+          "zone": 2,
+          "training_load": 9.398693,
+          "decoupling": 0.8984301
+        },
+        {
+          "type": "WORK",
+          "label": "374s@171w87rpm",
+          "duration_secs": 374,
+          "avg_power": 171,
+          "max_power": 326,
+          "avg_hr": 141,
+          "max_hr": 147,
+          "avg_cadence": 87.22995,
+          "zone": 2,
+          "training_load": 5.6125727,
+          "decoupling": -1.8257312
         }
       ]
     }
