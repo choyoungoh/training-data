@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-11-11T21:24:35.464220",
+  "generated_at": "2026-11-12T02:21:14.286461",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i202818246",
-      "date": "2026-10-28",
-      "type": "VirtualRide",
-      "name": "IntervalCoach - \uc57c\uc678 \uc7a5\uac70\ub9ac \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 6491,
-          "avg_power": 155,
-          "max_power": 393,
-          "avg_hr": 128,
-          "max_hr": 149,
-          "avg_cadence": 88.6867,
-          "zone": 2,
-          "training_load": 72.93288,
-          "decoupling": -5.384299
-        }
-      ]
-    },
     {
       "activity_id": "i203294916",
       "date": "2026-10-29",
