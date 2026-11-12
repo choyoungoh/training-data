@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-12T18:01:16.634772",
+    "last_updated": "2026-11-12T23:33:22.482811",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -287,7 +287,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 16264,
+      "steps": 16428,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -652,7 +652,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.23,
+          "planned_tss_delta": 1.52,
           "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 2,
           "current_week_hard_days_total": 5,
@@ -692,7 +692,7 @@
     "p_max": 904,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-12T18:01:16.633615",
+    "calculation_timestamp": "2026-11-12T23:33:22.481629",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 6,
@@ -4649,7 +4649,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 16264,
+      "steps": 16428,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4676,18 +4676,18 @@
       "description": "Warmup\n- 15m ramp 45-75%\n\nMain Set\n- Low 38m 63%\n- Cruise 77m 63-68%\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:enduranceFatMax]"
     },
     {
-      "id": 152046316,
+      "id": 155114611,
       "date": "2026-11-14",
-      "name": "IntervalCoach - \uc7a5\uc2dc\uac04 \uc720\uc0b0\uc18c",
+      "name": "IntervalCoach - \ud33b\ub9e5\uc2a4 \uc9c0\uad6c\ub825",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 137,
-      "duration_hours": 2.92,
-      "duration_formatted": "2h55m",
+      "planned_tss": 248,
+      "duration_hours": 6.0,
+      "duration_formatted": "6h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description": "Warmup\n- 15m ramp 45-75%\n\nMain Set\n- Settle In 15m 65-70%\n- Steady 135m 70%\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:longAerobic]"
+      "description": "Warmup\n- 5m 50%\n- 5m 60%\n- 5m 70%\n\nMain Set\n- Low 112m 63%\n- Settle In 223m 63-68%\n\nCooldown\n- 200s 60%\n- 200s 55%\n- 200s 50%"
     },
     {
       "id": 152046373,
