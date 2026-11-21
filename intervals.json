@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T13:57:38.180202",
+  "generated_at": "2026-11-21T20:22:00.882099",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2416,6 +2416,43 @@
           "zone": 2,
           "training_load": 14.472089,
           "decoupling": -4.720272
+        }
+      ]
+    },
+    {
+      "activity_id": "i212865848",
+      "date": "2026-11-21",
+      "type": "Ride",
+      "name": "IntervalCoach - \uc720\uc0b0\uc18c \uc9c0\uad6c\ub825",
+      "interval_summary": [
+        "1x 1h16m 125w",
+        "1x 5h24m 141w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4578s@125w75rpm",
+          "duration_secs": 4578,
+          "avg_power": 125,
+          "max_power": 443,
+          "avg_hr": 132,
+          "max_hr": 178,
+          "avg_cadence": 74.54025,
+          "zone": 1,
+          "training_load": 47.42444
+        },
+        {
+          "type": "WORK",
+          "label": "19491s@141w67rpm",
+          "duration_secs": 19491,
+          "avg_power": 141,
+          "max_power": 489,
+          "avg_hr": 144,
+          "max_hr": 185,
+          "avg_cadence": 67.380974,
+          "zone": 1,
+          "training_load": 234.41087,
+          "decoupling": 2.362342
         }
       ]
     }
