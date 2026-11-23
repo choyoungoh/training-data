@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-23T10:03:04.062270",
+    "last_updated": "2026-11-23T22:01:11.100824",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -117,7 +117,7 @@
       "sleep": {
         "status": "amber",
         "hours": 5.55,
-        "quality": null
+        "quality": 4
       },
       "acwr": {
         "status": "green",
@@ -252,17 +252,17 @@
       },
       "resting_hr": 57,
       "hrv": 48.9,
-      "sleep_quality": null,
+      "sleep_quality": 4,
       "sleep_hours": 5.55,
       "sleep_formatted": "5h33m",
       "sleep_score": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 3,
+      "soreness": 3,
+      "stress": 2,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 2,
+      "hydration": 2,
       "spO2": 95.2,
       "blood_glucose": null,
       "systolic": null,
@@ -272,7 +272,7 @@
       "respiration": 17.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1787,
+      "steps": 2977,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -630,7 +630,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.72,
+          "planned_tss_delta": 0.42,
           "hard_sessions_planned": 5,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 5,
@@ -670,7 +670,7 @@
     "p_max": 904,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-23T10:03:04.061385",
+    "calculation_timestamp": "2026-11-23T22:01:11.099949",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -5694,18 +5694,18 @@
       "hrv_sdnn": null,
       "sleep_hours": 5.55,
       "sleep_formatted": "5h33m",
-      "sleep_quality": null,
+      "sleep_quality": 4,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 3,
+      "soreness": 3,
+      "stress": 2,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 2,
+      "hydration": 2,
       "spO2": 95.2,
       "blood_glucose": null,
       "systolic": null,
@@ -5715,7 +5715,7 @@
       "respiration": 17.0,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1787,
+      "steps": 2977,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5728,23 +5728,23 @@
   ],
   "planned_workouts": [
     {
-      "id": 152046671,
+      "id": 159685100,
       "date": "2026-11-24",
-      "name": "IntervalCoach - 4x10 \uc5ed\uce58 \uc778\ud130\ubc8c",
+      "name": "IntervalCoach - \ub514\ub85c\ub4dc \ud68c\ubcf5 \ub77c\uc774\ub529",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 146,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "12m @156W | 1m @252W | 30s @143W | 1m @252W | 30s @143W | 12m @182W | 3\u00d710m @273W / 5m rec | 10m @273W | 28m @182W | 10m @143W",
+      "planned_tss": 19,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description": "Warmup\n- 12m ramp 45-75%\n- Primer 1 1m 97%\n- Primer recovery 30s 55%\n- Primer 2 1m 97%\n- Primer recovery 30s 55%\n\nMain Set\n- Endurance 12m 65-75%\n\n3x\n- Threshold 10m 105%\n- Recovery 5m 55%\n\nMain Set\n- Threshold 10m 105%\n- Endurance 28m 65-75%\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:threshold]"
+      "description": "Warmup\n- 7m ramp 45-55%\n\nMain Set\n- Easy Spin 17m 45-50% intensity=recovery\n- Loosen Up 16m 50-55% intensity=recovery\n\nCooldown\n- 5m ramp 55-45%\n\n[Athlete requested \u00b7 type:recovery]"
     },
     {
-      "id": 152046796,
+      "id": 159685649,
       "date": "2026-11-25",
-      "name": "IntervalCoach - \ud68c\ubcf5 \uace0\ud68c\uc804 \ub4dc\ub9b4",
+      "name": "IntervalCoach - \ub514\ub85c\ub4dc \ud68c\ubcf5 \uc2a4\ud540",
       "type": "WORKOUT",
       "sport_type": "Ride",
       "planned_tss": 17,
@@ -5753,35 +5753,35 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description": "Warmup\n- 6m ramp 45-55%\n\nMain Set\n- Fast Pedal Drill 4 30m 45-55% intensity=recovery\n\nCooldown\n- 4m ramp 55-45%\n\n[Weekly Plan - Base \u00b7 type:recoveryDrills]"
+      "description": "Warmup\n- 6m ramp 45-55%\n\nMain Set\n- Recovery 30m 45-55% intensity=recovery\n\nCooldown\n- 4m ramp 55-45%\n\n[Athlete requested \u00b7 type:recovery]"
     },
     {
-      "id": 152046941,
+      "id": 159685967,
       "date": "2026-11-26",
-      "name": "IntervalCoach - \uc810\uc9c4\uc801 \uc720\uc0b0\uc18c",
+      "name": "IntervalCoach - \ub514\ub85c\ub4dc \ud3b8\uc548\ud55c \uc9c0\uad6c\ub825",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 104,
-      "duration_hours": 2.27,
-      "duration_formatted": "2h16m",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description": "Warmup\n- 15m ramp 45-75%\n\nMain Set\n- Low 37m 65%\n- Mid 37m 69%\n- Upper 37m 73%\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:enduranceProgressive]"
+      "description": "Warmup\n- 9m ramp 45-75%\n\nMain Set\n- Settle In 11m 65%\n- Build 11m 67%\n- Cruise 23m 70-74%\n\nCooldown\n- 6m ramp 65-45%\n\n[Athlete requested \u00b7 type:endurance]"
     },
     {
-      "id": 152046977,
+      "id": 159686247,
       "date": "2026-11-28",
-      "name": "IntervalCoach - \uc9c0\uad6c\ub825 \uc2a4\ud540\uc5c5",
+      "name": "IntervalCoach - \ub514\ub85c\ub4dc \uc9e7\uc740 \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 131,
-      "duration_hours": 2.77,
-      "duration_formatted": "2h46m",
-      "workout_summary": "15m @156W | 8\u00d714m @182W / 1m rec | 21m @182W | 10m @143W",
+      "planned_tss": 56,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description": "Warmup\n- 15m ramp 45-75%\n\nMain Set\n8x\n- Endurance 14m 65-75%\n- Spin-Up 1m 75%\n\nRecovery\n- Endurance 21m 65-75%\n\nCooldown\n- 10m ramp 65-45%\n\n\n[Weekly Plan - Base \u00b7 type:enduranceSpinUps]"
+      "description": "Warmup\n- 11m ramp 45-75%\n\nMain Set\n- Settle In 14m 65%\n- Build 14m 67%\n- Upper 28m 70-74%\n\nCooldown\n- 8m ramp 65-45%\n\n[Athlete requested \u00b7 type:endurance]"
     },
     {
       "id": 152047070,
@@ -5795,7 +5795,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description": "Warmup\n- 15m ramp 45-75%\n\nMain Set\n- Low 92m 65%\n- Mid 92m 69%\n- Upper 91m 73%\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Base \u00b7 type:enduranceProgressive]"
+      "description": "Warmup\n- 15m ramp 45-75%\n\nMain Set\n- Low 92m 65%\n- Mid 92m 69%\n- Upper 91m 73%\n\nCooldown\n- 10m ramp 65-45%\n\n[Weekly Plan - Recovery \u00b7 type:enduranceProgressive]"
     },
     {
       "id": 152047132,
@@ -6003,17 +6003,18 @@
       "start_time": "17:00"
     },
     {
-      "id": 152048973,
+      "id": 159690265,
       "date": "2026-12-22",
-      "name": "IntervalCoach - 4x10 \uc5ed\uce58 \uc778\ud130\ubc8c",
+      "name": "IntervalCoach - \uc720\uc0b0\uc18c \uc9c0\uad6c\ub825",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 146,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "12m @156W | 1m @252W | 30s @143W | 1m @252W | 30s @143W | 12m @182W | 3\u00d710m @273W / 5m rec | 10m @273W | 28m @182W | 10m @143W",
+      "planned_tss": 95,
+      "duration_hours": 2.08,
+      "duration_formatted": "2h5m",
+      "workout_summary": null,
       "has_terrain": false,
-      "start_time": "17:00"
+      "start_time": "18:00",
+      "description_preview": "Warmup\n- 15m ramp 45-75%\nMain Set"
     },
     {
       "id": 152049033,
@@ -6049,13 +6050,13 @@
       "name": "IntervalCoach - \uc9c0\uad6c\ub825 \ub77c\uc774\ub529",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 135,
-      "duration_hours": 2.92,
-      "duration_formatted": "2h55m",
+      "planned_tss": 93,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description_preview": "Warmup\n- 15m ramp 45-75%\nMain Set"
+      "description_preview": "Warmup\n- 10m ramp 45-75%\nMain Set"
     },
     {
       "id": 152049445,
@@ -6142,11 +6143,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 30,
-    "success": 10,
-    "patternA": 10,
+    "success": 7,
+    "patternA": 7,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 20
+    "bail_no_match": 23
   },
   "weekly_summary": {
     "total_training_hours": 17.49,
