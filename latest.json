@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-26T02:34:17.044754",
+    "last_updated": "2026-11-26T11:28:40.210029",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -103,20 +103,20 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 54.2,
-        "delta_pct": null
+        "status": "green",
+        "value": 59.0,
+        "baseline_7d": 54.9,
+        "delta_pct": 7.4
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
+        "status": "green",
+        "value": 55,
         "baseline_7d": 55,
-        "delta_bpm": null
+        "delta_bpm": 0
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "amber",
+        "hours": 6.08,
         "quality": null
       },
       "acwr": {
@@ -124,9 +124,9 @@
         "value": 0.76
       },
       "ri": {
-        "status": "unavailable",
-        "value": null,
-        "value_yesterday": 0.96
+        "status": "green",
+        "value": 1.07,
+        "value_yesterday": 0.95
       },
       "tsb": {
         "status": "green",
@@ -134,10 +134,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 0,
+      "green": 5,
+      "amber": 1,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -147,7 +147,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -238,11 +238,11 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 56,
-      "hrv": null,
+      "resting_hr": 55,
+      "hrv": 58.95,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.08,
+      "sleep_formatted": "6h5m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -251,16 +251,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 96.3,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 16.6,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 64,
+      "steps": 96,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -272,14 +272,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "recovery_index_yesterday": 0.96,
-    "hrv_baseline_7d": 54.2,
+    "recovery_index": 1.07,
+    "recovery_index_yesterday": 0.95,
+    "hrv_baseline_7d": 54.9,
     "rhr_baseline_7d": 55,
-    "hrv_baseline_28d": 54.1,
-    "rhr_baseline_28d": 54.0,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "hrv_baseline_28d": 54.3,
+    "rhr_baseline_28d": 54.1,
+    "latest_hrv": 58.95,
+    "latest_rhr": 55,
     "acwr": 0.76,
     "acwr_interpretation": "undertraining",
     "monotony": 0.59,
@@ -291,7 +291,7 @@
     "multi_sport_detected": false,
     "strain": 333.0,
     "stress_tolerance": 5.6,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 5.3,
     "tss_7d_total": 564.0,
     "tss_28d_total": 2980.0,
     "zone_distribution_7d": {
@@ -602,13 +602,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.67,
+          "planned_tss_delta": 0.77,
           "hard_sessions_planned": 3,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": 0.5,
-          "plan_coverage_current_week": 0.38,
+          "plan_coverage_current_week": 0.5,
           "plan_coverage_next_week": 0.62
         },
         "data_quality": "good",
@@ -642,13 +642,13 @@
     "p_max": 902,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-26T02:34:17.043550",
+    "calculation_timestamp": "2026-11-26T11:28:40.208839",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 6,
+      "hrv_data_points": 7,
+      "rhr_data_points": 7,
       "activities_7d": 3,
       "activities_28d": 26,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -5503,11 +5503,11 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 55,
+      "hrv_rmssd": 58.95,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 6.08,
+      "sleep_formatted": "6h5m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -5520,16 +5520,16 @@
       "motivation": null,
       "injury": null,
       "hydration": null,
-      "spO2": null,
+      "spO2": 96.3,
       "blood_glucose": null,
       "systolic": null,
       "diastolic": null,
       "baevsky_si": null,
       "lactate": null,
-      "respiration": null,
+      "respiration": 16.6,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 64,
+      "steps": 96,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -5554,6 +5554,21 @@
       "has_terrain": false,
       "start_time": "17:00",
       "description": "Warmup\n- 9m ramp 45-75%\n\nMain Set\n- Settle In 11m 65%\n- Build 11m 67%\n- Cruise 23m 70-74%\n\nCooldown\n- 6m ramp 65-45%\n\n[Athlete requested \u00b7 type:endurance]"
+    },
+    {
+      "id": 160792789,
+      "date": "2026-11-26",
+      "name": "Easy endurance ride at 185 W",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 51,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "indoor": true,
+      "description": "Warm up for 10 minutes, then hold 45 minutes steady at 185 W (71% of your 260 W threshold), and finish with a 5-minute cool-down. Keep it conversational and don't chase the number.\n\n* Warm-up 5m 57%\n* Warm-up 5m 68%\n* Endurance 45m 74%\n* Cool-down 5m 52%\n\nhttps://app.loadlab.cc/athlete/plan/events/2957"
     },
     {
       "id": 159686247,
@@ -5878,13 +5893,13 @@
       "name": "IntervalCoach - \uc810\uc9c4\uc801 \uc720\uc0b0\uc18c",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 67,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 43,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description_preview": "Warmup\n- 14m ramp 45-75%\nMain Set"
+      "description_preview": "Warmup\n- 9m ramp 45-75%\nMain Set"
     },
     {
       "id": 152241027,
@@ -5969,19 +5984,19 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 31,
+    "attempted": 32,
     "success": 9,
     "patternA": 9,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 22
+    "bail_no_match": 23
   },
   "weekly_summary": {
     "total_training_hours": 12.12,
     "total_training_formatted": "12h7m",
     "total_tss": 564,
     "activities_count": 3,
-    "avg_hrv": 54.2,
+    "avg_hrv": 54.9,
     "avg_resting_hr": 55.0
   },
   "race_calendar": {
